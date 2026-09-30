@@ -20,7 +20,7 @@ quiz_questions = [
 
 def run_quiz():
     print("====================================")
-    print("🇳🇬 WELCOME TO THE NAIJA QUIZ BOT 🇳🇬")
+    print("      WELCOME TO THE QUIZ BOT    ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
