@@ -1,0 +1,123 @@
+{ "chemistry": [
+    {
+    "question": "What is the chemical symbol for the element Gold?",
+    "options": ["A. Ag", "B. Au", "C. Fe", "D. Gd"],
+    "correct_answer": "B",
+    "explanation": "The symbol Au comes from the Latin word for gold, 'aurum', which means shining dawn."
+  },
+  {
+    "question": "Which gas is most abundant in the Earth's atmosphere?",
+    "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Hydrogen"],
+    "correct_answer": "C",
+    "explanation": "Nitrogen gas makes up about 78% of the Earth's atmosphere, while oxygen makes up about 21%."
+  },
+  {
+    "question": "What is the pH value of pure water at room temperature?",
+    "options": ["A. 0", "B. 5", "C. 7", "D. 14"],
+    "correct_answer": "C",
+    "explanation": "A pH of 7 is perfectly neutral. Values below 7 are acidic, and values above 7 are basic or alkaline."
+  },
+  {
+    "question": "What are the negatively charged subatomic particles that orbit the nucleus of an atom?",
+    "options": ["A. Protons", "B. Neutrons", "C. Electrons", "D. Positrons"],
+    "correct_answer": "C",
+    "explanation": "Electrons carry a negative charge and move around the outside of the dense, positively charged nucleus."
+  },
+  {
+    "question": "What type of chemical bond is formed when two atoms share electrons?",
+    "options": ["A. Ionic bond", "B. Covalent bond", "C. Metallic bond", "D. Hydrogen bond"],
+    "correct_answer": "B",
+    "explanation": "Covalent bonding involves the sharing of electron pairs between atoms, typically non-metals."
+  },
+  {
+    "question": "Which of the following is an example of a chemical change?",
+    "options": ["A. Melting of candle wax", "B. Rusting of an iron nail", "C. Dissolving sugar in water", "D. Crushing a piece of chalk"],
+    "correct_answer": "B",
+    "explanation": "Rusting creates a completely new substance (iron oxide) through a chemical reaction with oxygen and moisture."
+  },
+  {
+    "question": "What is the common name for the compound Sodium Chloride (NaCl)?",
+    "options": ["A. Baking soda", "B. Vinegar", "C. Bleach", "D. Table salt"],
+    "correct_answer": "D",
+    "explanation": "Sodium Chloride (NaCl) is the standard chemical designation for ordinary table salt."
+  },
+  {
+    "question": "Which element is present in all organic compounds?",
+    "options": ["A. Oxygen", "B. Hydrogen", "C. Carbon", "D. Nitrogen"],
+    "correct_answer": "C",
+    "explanation": "Organic chemistry is defined specifically as the study of carbon-containing chemical compounds."
+  },
+  {
+    "question": "What is the lightest element in the periodic table?",
+    "options": ["A. Helium", "B. Hydrogen", "C. Lithium", "D. Oxygen"],
+    "correct_answer": "B",
+    "explanation": "Hydrogen has the atomic number 1 and consists of just a single proton and electron, making it the lightest element."
+  },
+  {
+    "question": "What is the process called when a solid turns directly into a gas without passing through the liquid state?",
+    "options": ["A. Evaporation", "B. Condensation", "C. Sublimation", "D. Melting"],
+    "correct_answer": "C",
+    "explanation": "Sublimation occurs when phase boundaries shift directly from solid to gas, such as with dry ice or iodine crystals."
+  },
+  {
+    "question": "Which of these substances turns blue litmus paper red?",
+    "options": ["A. An acid", "B. A base", "C. Water", "D. Salt solution"],
+    "correct_answer": "A",
+    "explanation": "Acids consistently turn blue litmus paper red, while bases or alkaline solutions turn red litmus paper blue."
+  },
+  {
+    "question": "Who is credited with creating the first widely accepted version of the Periodic Table?",
+    "options": ["A. John Dalton", "B. Dmitri Mendeleev", "C. Marie Curie", "D. Ernest Rutherford"],
+    "correct_answer": "B",
+    "explanation": "Russian chemist Dmitri Mendeleev organized elements by atomic mass in 1869, famously leaving gaps for undiscovered elements."
+  },
+  {
+    "question": "What is the term for a substance that speeds up a chemical reaction without being consumed by it?",
+    "options": ["A. Reactant", "B. Product", "C. Catalyst", "D. Solvent"],
+    "correct_answer": "C",
+    "explanation": "A catalyst lowers the activation energy required for a chemical reaction to occur, accelerating it without degrading."
+  },
+  {
+    "question": "Which law states that matter cannot be created or destroyed in a chemical reaction?",
+    "options": ["A. Boyle's Law", "B. Law of Conservation of Mass", "C. Avogadro's Law", "D. Law of Definite Proportions"],
+    "correct_answer": "B",
+    "explanation": "The Law of Conservation of Mass dictates that the total mass of the reactants must exactly equal the total mass of the products."
+  },
+  {
+    "question": "What are atoms of the same element that have different numbers of neutrons called?",
+    "options": ["A. Isomers", "B. Allotropes", "C. Isotopes", "D. Ions"],
+    "correct_answer": "C",
+    "explanation": "Isotopes share the exact same number of protons (atomic number) but differ in their atomic mass due to varying numbers of neutrons."
+  },
+  {
+    "question": "What gas is produced when an acid reacts with a metal carbonate?",
+    "options": ["A. Hydrogen gas", "B. Oxygen gas", "C. Carbon dioxide gas", "D. Nitrogen gas"],
+    "correct_answer": "C",
+    "explanation": "Reaction of an acid with a carbonate always yields salt, water, and effervescent carbon dioxide gas ($CO_2$)."
+  },
+  {
+    "question": "Which of the following is a noble gas?",
+    "options": ["A. Chlorine", "B. Helium", "C. Fluorine", "D. Nitrogen"],
+    "correct_answer": "B",
+    "explanation": "Helium belongs to Group 18 of the periodic table, meaning its valence shell is full and it is extremely unreactive."
+  },
+  {
+    "question": "What is the chemical formula for Ozone?",
+    "options": ["A. O", "B. O2", "C. O3", "D. O4"],
+    "correct_answer": "C",
+    "explanation": "Ozone is an allotrope of oxygen consisting of three oxygen atoms bonded together ($O_3$)."
+  },
+  {
+    "question": "What type of reaction releases heat energy into the surroundings?",
+    "options": ["A. Endothermic reaction", "B. Exothermic reaction", "C. Neutralization reaction", "D. Decomposition reaction"],
+    "correct_answer": "B",
+    "explanation": "Exothermic reactions shed thermal energy to external environments, often causing a measurable rise in temperature."
+  },
+  {
+    "question": "What is the principal ore from which Aluminium metal is extracted?",
+    "options": ["A. Hematite", "B. Bauxite", "C. Galena", "D. Magnetite"],
+    "correct_answer": "B",
+    "explanation": "Bauxite is the primary sedimentary rock ore used globally to refine aluminum oxide via the Bayer process."
+  }
+  ]
+}

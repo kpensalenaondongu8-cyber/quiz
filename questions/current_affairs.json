@@ -1,0 +1,124 @@
+{
+    "current_affairs": [
+    {
+      "question": "In Nigeria, the National Youth Service Corps (NYSC) was established in what year?",
+      "options": ["A. 1960", "B. 1973", "C. 1999", "D. 2011"],
+      "correct_answer": "B",
+      "explanation": "The NYSC was established on May 22, 1973, by General Yakubu Gowon's military regime to promote national unity after the Nigerian Civil War."
+    },
+     {
+    "question": "Who was Nigeria's first Prime Minister?",
+    "options": ["A. Nnamdi Azikiwe", "B. Obafemi Awolowo", "C. Ahmadu Bello", "D. Abubakar Tafawa Balewa"],
+    "correct_answer": "D",
+    "explanation": "Sir Abubakar Tafawa Balewa was the first and only Prime Minister of an independent Nigeria, serving from 1957 until his assassination in the 1966 coup."
+  },
+  {
+    "question": "What is the official currency of Nigeria?",
+    "options": ["A. Dollar", "B. Cedi", "C. Naira", "D. Franc"],
+    "correct_answer": "C",
+    "explanation": "The Nigerian Naira (₦) was introduced on January 1, 1973, replacing the Nigerian Pound."
+  },
+  {
+    "question": "Which Nigerian city is known as the 'Center of Excellence'?",
+    "options": ["A. Abuja", "B. Port Harcourt", "C. Lagos", "D. Ibadan"],
+    "correct_answer": "C",
+    "explanation": "'Center of Excellence' is the official state motto of Lagos State, recognizing its position as Nigeria's economic and commercial hub."
+  },
+  {
+    "question": "In what year did Nigeria officially become a Republic?",
+    "options": ["A. 1960", "B. 1963", "C. 1970", "D. 1999"],
+    "correct_answer": "B",
+    "explanation": "While Nigeria gained independence in 1960, it became a Federal Republic on October 1, 1963, completely severing constitutional ties with the British monarchy."
+  },
+  {
+    "question": "Who is the first Nigerian to win a Nobel Prize?",
+    "options": ["A. Chinua Achebe", "B. Wole Soyinka", "C. Chimamanda Ngozi Adichie", "D. Ben Okri"],
+    "correct_answer": "B",
+    "explanation": "Wole Soyinka won the Nobel Prize in Literature in 1986, making him the first Nigerian and first African to win in that category."
+  },
+  {
+    "question": "What do the two white horses on the Nigerian Coat of Arms represent?",
+    "options": ["A. Agriculture", "B. Dignity and Strength", "C. Peace", "D. Tourism"],
+    "correct_answer": "B",
+    "explanation": "On the Coat of Arms, the two white horses supporting the shield represent the dignity and pride of Nigeria."
+  },
+  {
+    "question": "Which is the largest river in Nigeria?",
+    "options": ["A. River Benue", "B. River Kaduna", "C. River Cross", "D. River Niger"],
+    "correct_answer": "D",
+    "explanation": "The River Niger is the principal river of West Africa and the longest river in Nigeria, giving the country its name."
+  },
+  {
+    "question": "Who was the first female World Trade Organization (WTO) Director-General?",
+    "options": ["A. Dora Akunyili", "B. Ngozi Okonjo-Iweala", "C. Amina J. Mohammed", "D. Zainab Ahmed"],
+    "correct_answer": "B",
+    "explanation": "Nigeria's Dr. Ngozi Okonjo-Iweala made history in March 2021 when she became the first woman and first African to lead the WTO."
+  },
+  {
+    "question": "What is the administrative capital city of Nigeria?",
+    "options": ["A. Lagos", "B. Kaduna", "C. Abuja", "D. Enugu"],
+    "correct_answer": "C",
+    "explanation": "Abuja officially became the federal capital city of Nigeria on December 12, 1991, taking over the status from Lagos."
+  },
+  {
+    "question": "Who designed the Nigerian national flag?",
+    "options": ["A. Taiwo Akinkunmi", "B. Herbert Macaulay", "C. Alvan Ikoku", "D. Nnamdi Azikiwe"],
+    "correct_answer": "A",
+    "explanation": "Michael Taiwo Akinkunmi designed the green-white-green flag in 1959 while studying engineering in London."
+  },
+  {
+    "question": "What does the green color on the Nigerian flag represent?",
+    "options": ["A. Peace", "B. Unity", "C. Wealth and Agriculture", "D. Solid Minerals"],
+    "correct_answer": "C",
+    "explanation": "The two green vertical bands represent Nigeria's rich natural resources and agricultural wealth, while the white band stands for peace."
+  },
+  {
+    "question": "Which body is responsible for conducting federal elections in Nigeria?",
+    "options": ["A. EFCC", "B. INEC", "C. NAFDAC", "D. NUC"],
+    "correct_answer": "B",
+    "explanation": "The Independent National Electoral Commission (INEC) is the statutory body set up to oversee elections in Nigeria."
+  },
+  {
+    "question": "What was the name of Nigeria's first indigenous television station?",
+    "options": ["A. NTA", "B. Channels TV", "C. WNTV", "D. AIT"],
+    "correct_answer": "C",
+    "explanation": "The Western Nigeria Television (WNTV) was launched in October 1959 by Chief Obafemi Awolowo as the first TV station in Nigeria and tropical Africa."
+  },
+  {
+    "question": "Who was the first executive President of Nigeria?",
+    "options": ["A. Olusegun Obasanjo", "B. Shehu Shagari", "C. Ibrahim Babangida", "D. Goodluck Jonathan"],
+    "correct_answer": "B",
+    "explanation": "Alhaji Shehu Shagari was the first democratically elected executive President under the Second Republic in 1979."
+  },
+  {
+    "question": "How many geopolitical zones is Nigeria divided into?",
+    "options": ["A. 4", "B. 6", "C. 12", "D. 36"],
+    "correct_answer": "B",
+    "explanation": "Nigeria is divided into 6 geopolitical zones: North-West, North-East, North-Central, South-West, South-East, and South-South."
+  },
+  {
+    "question": "Which currency was used in Nigeria immediately before the Naira?",
+    "options": ["A. Dollar", "B. Cowries", "C. Pound", "D. Euro"],
+    "correct_answer": "C",
+    "explanation": "Prior to switching to the decimal system with the Naira in 1973, Nigeria used the Nigerian Pound (£)."
+  },
+  {
+    "question": "Which mineral resource is the main mainstay of the Nigerian economy?",
+    "options": ["A. Coal", "B. Crude Oil", "C. Gold", "D. Limestone"],
+    "correct_answer": "B",
+    "explanation": "Crude oil discovery and export has been the dominant driver of Nigeria's foreign exchange earnings since the late 1960s."
+  },
+  {
+    "question": "Who is currently serving as the Deputy Secretary-General of the United Nations?",
+    "options": ["A. Amina J. Mohammed", "B. Kofiannan", "C. Ban Ki-moon", "D. Florence Ita Giwa"],
+    "correct_answer": "A",
+    "explanation": "Nigeria's Amina J. Mohammed has been serving as the Deputy Secretary-General of the UN, working alongside Secretary-General António Guterres."
+  },
+  {
+    "question": "What is the name of the highest court of law in Nigeria?",
+    "options": ["A. Federal High Court", "B. Court of Appeal", "C. Supreme Court", "D. Sharia Court of Appeal"],
+    "correct_answer": "C",
+    "explanation": "The Supreme Court of Nigeria, located in Abuja, is the highest court in the land, and its judgments are final."
+  }
+  ]
+}

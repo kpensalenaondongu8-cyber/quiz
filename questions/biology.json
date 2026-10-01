@@ -1,0 +1,125 @@
+{
+    "biology": 
+        [
+  {
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "options": ["A. Nucleus", "B. Mitochondrion", "C. Ribosome", "D. Golgi apparatus"],
+    "correct_answer": "B",
+    "explanation": "Mitochondria are responsible for cellular respiration, converting nutrients into adenosine triphosphate (ATP), the energy currency of the cell."
+  },
+  {
+    "question": "What is the green pigment in plants that absorbs light energy during photosynthesis?",
+    "options": ["A. Carotene", "B. Xanthophyll", "C. Chlorophyll", "D. Hemoglobin"],
+    "correct_answer": "C",
+    "explanation": "Chlorophyll is the primary pigment found inside chloroplasts that captures sunlight to drive the synthesis of plant food."
+  },
+  {
+    "question": "Which molecule carries genetic instructions for the development and functioning of all living organisms?",
+    "options": ["A. RNA", "B. DNA", "C. ATP", "D. Protein"],
+    "correct_answer": "B",
+    "explanation": "Deoxyribonucleic acid (DNA) is a double-stranded molecule containing the unique genetic blueprint for living organisms."
+  },
+  {
+    "question": "What are the structural and functional units of human kidneys responsible for filtering blood?",
+    "options": ["A. Neurons", "B. Nephrons", "C. Alveoli", "D. Bronchioles"],
+    "correct_answer": "B",
+    "explanation": "Nephrons filter blood, remove metabolic wastes, and regulate water and mineral balances to produce urine."
+  },
+  {
+    "question": "Which type of blood vessel carries oxygenated blood away from the heart to the rest of the body?",
+    "options": ["A. Veins", "B. Arteries", "C. Capillaries", "D. Venules"],
+    "correct_answer": "B",
+    "explanation": "Arteries carry high-pressure, oxygen-rich blood away from the heart. The only exception is the pulmonary artery."
+  },
+  {
+    "question": "What is the process of cell division that results in four daughter cells each with half the chromosome number of the parent cell?",
+    "options": ["A. Mitosis", "B. Binary fission", "C. Meiosis", "D. Budding"],
+    "correct_answer": "C",
+    "explanation": "Meiosis reduces chromosome counts by half to produce haploid gametes (sperm and egg cells) for sexual reproduction."
+  },
+  {
+    "question": "Which organ in the human body is responsible for producing insulin?",
+    "options": ["A. Liver", "B. Pancreas", "C. Gallbladder", "D. Spleen"],
+    "correct_answer": "B",
+    "explanation": "The pancreas features specialized cells called islets of Langerhans that secrete insulin to balance blood glucose levels."
+  },
+  {
+    "question": "What is the main function of red blood cells (erythrocytes)?",
+    "options": ["A. Clotting blood", "B. Fighting infections", "C. Transporting oxygen", "D. Producing antibodies"],
+    "correct_answer": "C",
+    "explanation": "Red blood cells contain hemoglobin, an iron-rich protein that binds to oxygen in the lungs and delivers it to bodily tissues."
+  },
+  {
+    "question": "In genetics, a trait that is only expressed when two copies of the allele are present is called what?",
+    "options": ["A. Dominant", "B. Recessive", "C. Co-dominant", "D. Heterozygous"],
+    "correct_answer": "B",
+    "explanation": "Recessive traits are masked by dominant alleles and only appear physically if an individual inherits the recessive allele from both parents."
+  },
+  {
+    "question": "What is the process by which water vapor escapes from the leaves of a plant into the atmosphere?",
+    "options": ["A. Respiration", "B. Transpiration", "C. Translocation", "D. Osmosis"],
+    "correct_answer": "B",
+    "explanation": "Transpiration pulls water up from the roots and releases it as vapor through tiny leaf pores called stomata."
+  },
+  {
+    "question": "Which organism lacks a defined nucleus and membrane-bound organelles?",
+    "options": ["A. Bacteria", "B. Fungi", "C. Amoeba", "D. Yeast"],
+    "correct_answer": "A",
+    "explanation": "Bacteria are prokaryotes, meaning their genetic material floats freely in the cytoplasm without being enclosed in a nucleus."
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "options": ["A. Brain", "B. Liver", "C. Stomach", "D. Large intestine"],
+    "correct_answer": "B",
+    "explanation": "The liver is the heaviest and largest internal organ, executing hundreds of functions like detoxification and bile production."
+  },
+  {
+    "question": "Which plant tissue is primarily responsible for transporting water and dissolved minerals upward from roots to leaves?",
+    "options": ["A. Phloem", "B. Xylem", "C. Cambium", "D. Epidermis"],
+    "correct_answer": "B",
+    "explanation": "Xylem vessels carry water mechanically upward, while phloem tissues transport organic food nutrients down and around the plant."
+  },
+  {
+    "question": "What is the primary site of nutrient absorption during human digestion?",
+    "options": ["A. Stomach", "B. Small intestine", "C. Large intestine", "D. Esophagus"],
+    "correct_answer": "B",
+    "explanation": "The small intestine uses millions of finger-like projections called villi to absorb digested nutrients directly into the bloodstream."
+  },
+  {
+    "question": "Who is universally regarded as the father of modern genetics for his experiments on pea plants?",
+    "options": ["A. Charles Darwin", "B. Louis Pasteur", "C. Gregor Mendel", "D. Alexander Fleming"],
+    "correct_answer": "C",
+    "explanation": "Gregor Mendel established the fundamental laws of inheritance in the 1860s by tracking specific traits across generations of pea plants."
+  },
+  {
+    "question": "Which hormone triggers the 'fight or flight' response, increasing heart rate and energy during emergencies?",
+    "options": ["A. Thyroxine", "B. Adrenaline", "C. Estrogen", "D. Melatonin"],
+    "correct_answer": "B",
+    "explanation": "Adrenaline (epinephrine) is released by the adrenal glands to prepare the body to confront or flee from immediate danger."
+  },
+  {
+    "question": "What structural component makes plant cells rigid and different from animal cells?",
+    "options": ["A. Plasma membrane", "B. Cytoplasm", "C. Cell wall", "D. Lysosome"],
+    "correct_answer": "C",
+    "explanation": "Plant cells feature a rigid outer cell wall composed of cellulose that provides structural support, which animal cells lack completely."
+  },
+  {
+    "question": "What is the movement of water molecules across a semi-permeable membrane from a region of high water concentration to low water concentration?",
+    "options": ["A. Diffusion", "B. Active transport", "C. Osmosis", "D. Phagocytosis"],
+    "correct_answer": "C",
+    "explanation": "Osmosis is a passive diffusion mechanism exclusively describing water movement scaling across selectively permeable barriers."
+  },
+  {
+    "question": "Which vitamin is synthesized by the human skin when exposed to direct sunlight?",
+    "options": ["A. Vitamin A", "B. Vitamin B12", "C. Vitamin C", "D. Vitamin D"],
+    "correct_answer": "D",
+    "explanation": "Ultraviolet B (UVB) rays from sunlight trigger chemical reactions in skin cells to produce active Vitamin D."
+  },
+  {
+    "question": "What is the functional connection or microscopic gap across which nerve impulses pass from one neuron to another?",
+    "options": ["A. Axon", "B. Dendrite", "C. Synapse", "D. Myelin sheath"],
+    "correct_answer": "C",
+    "explanation": "The synapse is the small gap where chemical neurotransmitters are released to forward electrical signals onto the neighboring neuron."
+  }
+]
+}

@@ -1,0 +1,124 @@
+{
+     "javascript": [
+        {
+    "question": "Which keyword declares a block-scoped local variable that can be reassigned?",
+    "options": ["A. var", "B. let", "C. const", "D. define"],
+    "correct_answer": "B",
+    "explanation": "The let keyword declares mutable, block-scoped variables introduced in ES6 modern standards."
+  },
+  {
+    "question": "What is the purpose of the const keyword?",
+    "options": ["A. Creates constant blocks", "B. Declares block-scoped variable that cannot be reassigned", "C. Makes functions run faster", "D. Clears local storage references"],
+    "correct_answer": "B",
+    "explanation": "Variables declared with const are read-only references whose reference identity cannot change."
+  },
+  {
+    "question": "How do you write a message onto the browser debug log console?",
+    "options": ["A. log.print()", "B. console.log()", "C. document.write()", "D. system.log()"],
+    "correct_answer": "B",
+    "explanation": "The console.log() method dumps parameter arguments straight out into execution inspector lines."
+  },
+  {
+    "question": "Which comparison operator checks both value and type equality strictly?",
+    "options": ["A. ==", "B. =", "C. ===", "D. !="],
+    "correct_answer": "C",
+    "explanation": "The triple-equals operator avoids automatic implicit type coercion, enforcing matching configurations."
+  },
+  {
+    "question": "What data type is returned by checking typeof null in JavaScript?",
+    "options": ["A. 'null'", "B. 'undefined'", "C. 'object'", "D. 'blank'"],
+    "correct_answer": "C",
+    "explanation": "Historically, evaluating null via typeof returns 'object', an established JS bug preserved for legacy safety."
+  },
+  {
+    "question": "How do you create an array template structure in JavaScript?",
+    "options": ["A. let items = {}", "B. let items = []", "C. let items = ()", "D. let items = <array>"],
+    "correct_answer": "B",
+    "explanation": "Square brackets define an ordered collection called an Array literal in JavaScript."
+  },
+  {
+    "question": "Which method appends values directly onto the end of an array?",
+    "options": ["A. .push()", "B. .pop()", "C. .shift()", "D. .append()"],
+    "correct_answer": "A",
+    "explanation": "The .push() method modifies the targeting array, extending its size by updating trailing elements."
+  },
+  {
+    "question": "What does an arrow function sequence look like syntactically?",
+    "options": ["A. function => {}", "B. () => {}", "C. => function()", "D. call.function()"],
+    "correct_answer": "B",
+    "explanation": "Arrow symbols => deliver shorthand scope-bound inline alternative declaration styles."
+  },
+  {
+    "question": "What is the default value of variables that are declared but not initialized?",
+    "options": ["A. null", "B. undefined", "C. false", "D. NaN"],
+    "correct_answer": "B",
+    "explanation": "Unassigned identities naturally reference the built-in system constant type value 'undefined'."
+  },
+  {
+    "question": "What does NaN stand for?",
+    "options": ["A. New Node Allocation", "B. Null and Negative", "C. Not a Number", "D. Number Asset Network"],
+    "correct_answer": "C",
+    "explanation": "NaN represents a bad conversion resulting from invalid mathematical or structural computing interactions."
+  },
+  {
+    "question": "Which method parses string JSON content back into a JavaScript object?",
+    "options": ["A. JSON.stringify()", "B. JSON.parse()", "C. JSON.object()", "D. JSON.load()"],
+    "correct_answer": "B",
+    "explanation": "JSON.parse() deserializes text blocks turning valid properties into active local object maps."
+  },
+  {
+    "question": "How do you write a multi-line comment block inside JavaScript files?",
+    "options": ["A. // comment", "B. /* comment */", "C. # comment", "D. <!-- comment -->"],
+    "correct_answer": "B",
+    "explanation": "Slash-asterisk tokens signal boundaries enclosing multi-line developer comments."
+  },
+  {
+    "question": "What occurs when running an expression adding 5 + '5'?",
+    "options": ["A. 10", "B. '55'", "C. Error", "D. NaN"],
+    "correct_answer": "B",
+    "explanation": "JavaScript implicitly converts numbers into strings during addition strings, resulting in concatenation."
+  },
+  {
+    "question": "Which keyword references the object currently executing the active function code?",
+    "options": ["A. parent", "B. super", "C. this", "D. self"],
+    "correct_answer": "C",
+    "explanation": "The contextual this keyword resolves identifiers depending heavily upon function caller definitions."
+  },
+  {
+    "question": "How can you register delayed code execution to run once exactly 2 seconds later?",
+    "options": ["A. setInterval(func, 2000)", "B. setTimeout(func, 2000)", "C. delay(2000)", "D. wait(2000)"],
+    "correct_answer": "B",
+    "explanation": "setTimeout schedules execution pipelines exactly once after evaluating parameters in milliseconds."
+  },
+  {
+    "question": "Which array iteration strategy maps new data array structures directly out of source items?",
+    "options": ["A. .forEach()", "B. .map()", "C. .filter()", "D. .reduce()"],
+    "correct_answer": "B",
+    "explanation": ".map() processes each item within an array and populates a new array with the transformed results."
+  },
+  {
+    "question": "What feature handles asynchronous processes cleanly without collapsing nested callbacks?",
+    "options": ["A. Promises", "B. Events", "C. Prototype Chains", "D. Closures"],
+    "correct_answer": "A",
+    "explanation": "Promises track future data transactions asynchronously, resolving callback nesting issues cleanly."
+  },
+  {
+    "question": "What keyword handles resolving values out of an active async Promise synchronously inside functions?",
+    "options": ["A. hold", "B. wait", "C. await", "D. pause"],
+    "correct_answer": "C",
+    "explanation": "The await keyword pauses async function execution until the target Promise settles."
+  },
+  {
+    "question": "How do you capture error instances happening inside async/await operations?",
+    "options": ["A. .catch()", "B. try...catch blocks", "C. onError templates", "D. process.exit()"],
+    "correct_answer": "B",
+    "explanation": "Async/await natively re-routes errors back into clean synchronous structural try/catch wrappers."
+  },
+  {
+    "question": "Which built-in template feature lets you interpolate string variables via backticks (`${var}`)?",
+    "options": ["A. String objects", "B. Template Literals", "C. Concentrators", "D. Formatter links"],
+    "correct_answer": "B",
+    "explanation": "Template literals bounded by backticks facilitate inline data parsing directly inside strings."
+  }
+]
+}

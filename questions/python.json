@@ -1,0 +1,130 @@
+{
+    "python": [
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["A. func", "B. define", "C. def", "D. function"],
+        "correct_answer": "C",
+        "explanation": "In Python, the 'def' keyword is short for define, and it is used to start a function block."
+      },
+        {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["A. func", "B. define", "C. def", "D. function"],
+        "correct_answer": "C",
+        "explanation": "In Python, the 'def' keyword stands for define, and it is used to declare a function."
+      },
+      {
+        "question": "What does the list method .append() do?",
+        "options": ["A. Adds an item to the end of the list", "B. Removes the first item", "C. Sorts the list", "D. Copies the list"],
+        "correct_answer": "A",
+        "explanation": ".append() adds a single element to the very end of an existing list dynamically."
+      },
+      {
+        "question": "Which data type is immutable in Python?",
+        "options": ["A. List", "B. Dictionary", "C. Tuple", "D. Set"],
+        "correct_answer": "C",
+        "explanation": "Tuples cannot be changed, appended, or modified after creation, making them immutable."
+      },
+      {
+        "question": "What is the correct way to output 'Hello World' in Python?",
+        "options": ["A. echo('Hello World')", "B. print('Hello World')", "C. system.out.println('Hello World')", "D. console.log('Hello World')"],
+        "correct_answer": "B",
+        "explanation": "Python uses the built-in print() function to display messages to the console output."
+      },
+      {
+        "question": "How do you insert a single-line comment in Python code?",
+        "options": ["A. // comment", "B. /* comment */", "C. # comment", "D. <!-- comment -->"],
+        "correct_answer": "C",
+        "explanation": "The hash symbol (#) is used to tell Python to ignore everything on that line as a comment."
+      },
+      {
+        "question": "What is the output of print(type([]) in Python?",
+        "options": ["A. <class 'list'>", "B. <class 'dict'>", "C. <class 'tuple'>", "D. <class 'array'>"],
+        "correct_answer": "A",
+        "explanation": "Square brackets [] signify an empty list object in Python terminology."
+      },
+      {
+        "question": "Which operator is used for floor division in Python?",
+        "options": ["A. /", "B. //", "C. %", "D. **"],
+        "correct_answer": "B",
+        "explanation": "The // operator divides two numbers and rounds down the result to the nearest integer."
+      },
+      {
+        "question": "What does the break keyword do inside a loop?",
+        "options": ["A. Skips the current iteration", "B. Restarts the program", "C. Exits the loop entirely", "D. Pauses the loop for 1 second"],
+        "correct_answer": "C",
+        "explanation": "The break statement terminates the execution of the loop it is currently running inside."
+      },
+      {
+        "question": "Which of these is NOT a valid variable name in Python?",
+        "options": ["A. my_var", "B. _myvar", "C. 2myvar", "D. myVar2"],
+        "correct_answer": "C",
+        "explanation": "Variable names in Python cannot start with a number; they must start with a letter or underscore."
+      },
+      {
+        "question": "What is the result of 2 ** 3 in Python?",
+        "options": ["A. 6", "B. 8", "C. 9", "D. 5"],
+        "correct_answer": "B",
+        "explanation": "The ** operator stands for exponentiation, meaning 2 raised to the power of 3 (2 * 2 * 2)."
+      },
+      {
+        "question": "What does len() function do?",
+        "options": ["A. Changes lowercase to uppercase", "B. Returns the number of items in an object", "C. Allocates memory length", "D. Deletes items"],
+        "correct_answer": "B",
+        "explanation": "len() returns the length (count of elements) of a string, list, dictionary, or tuple."
+      },
+      {
+        "question": "How can you convert a string '10' into an integer?",
+        "options": ["A. int('10')", "B. str('10')", "C. float('10')", "D. cast('10')"],
+        "correct_answer": "A",
+        "explanation": "The int() function takes compatible types like strings or floats and converts them into integers."
+      },
+      {
+        "question": "What is the output of bool('') in Python?",
+        "options": ["A. True", "B. False", "C. None", "D. Error"],
+        "correct_answer": "B",
+        "explanation": "An empty string is considered a falsy value in Python, evaluating to False when converted to boolean."
+      },
+      {
+        "question": "Which block runs regardless of whether an exception occurred or not in try-except?",
+        "options": ["A. else", "B. catch", "C. finally", "D. final"],
+        "correct_answer": "C",
+        "explanation": "The finally block is guaranteed to execute clean-up code no matter what happens in try/except blocks."
+      },
+      {
+        "question": "What does the dictionary method .keys() return?",
+        "options": ["A. All the values", "B. All key-value tuples", "C. All the keys", "D. Clears all keys"],
+        "correct_answer": "C",
+        "explanation": "The .keys() method yields a view object containing all individual key items defined in that dictionary."
+      },
+      {
+        "question": "How do you create a set in Python?",
+        "options": ["A. my_set = []", "B. my_set = ()", "C. my_set = {1, 2, 3}", "D. my_set = '1,2,3'"],
+        "correct_answer": "C",
+        "explanation": "Curly braces surrounding unique comma-separated values without key mappings create a Set."
+      },
+      {
+        "question": "What does the range(5) function yield?",
+        "options": ["A. Numbers 1 to 5", "B. Numbers 0 to 4", "C. Numbers 0 to 5", "D. Five random numbers"],
+        "correct_answer": "B",
+        "explanation": "range(n) starts indexing from 0 and goes up to, but strictly excludes, the final specified integer n."
+      },
+      {
+        "question": "Which keyword is used to import code from another module?",
+        "options": ["A. include", "B. require", "C. fetch", "D. import"],
+        "correct_answer": "D",
+        "explanation": "Python uses the import keyword to gain access to code residing inside external files or libraries."
+      },
+      {
+        "question": "What is the result of 'abc'.upper()?",
+        "options": ["A. Abc", "B. ABC", "C. abc", "D. Error"],
+        "correct_answer": "B",
+        "explanation": "The .upper() string method returns a duplicate copy converted entirely into capital letters."
+      },
+      {
+        "question": "What happens if a key is not found when using dict.get('missing_key')?",
+        "options": ["A. Throws a KeyError", "B. Throws a ValueError", "C. Returns None", "D. Crashes the program"],
+        "correct_answer": "C",
+        "explanation": "Unlike bracket notation data['key'], the .get() method safely falls back to returning None if a key is absent."
+      }
+    ]
+}

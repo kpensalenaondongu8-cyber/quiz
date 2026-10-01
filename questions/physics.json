@@ -1,0 +1,130 @@
+{
+  "physics": [
+    {
+      "question": "Which of the following is a physical change?",
+      "options": ["A. Burning of wood", "B. Melting of ice", "C. Rusting of iron", "D. Souring of milk"],
+      "correct_answer": "B",
+      "explanation": "Melting of ice turns solid water into liquid water, but it remains H2O. No new substance is formed, making it a physical change."
+    },
+    {
+    "question": "What is the SI unit of force?",
+    "options": ["A. Joule", "B. Newton", "C. Watt", "D. Pascal"],
+    "correct_answer": "B",
+    "explanation": "Named after Sir Isaac Newton, the Newton (N) is the standard international unit used to measure force."
+  },
+  {
+    "question": "What is the acceleration due to gravity on Earth's surface (approximate standard value)?",
+    "options": ["A. 5.7 m/s²", "B. 9.8 m/s²", "C. 12.4 m/s²", "D. 3.0 m/s²"],
+    "correct_answer": "B",
+    "explanation": "Objects falling freely near Earth's surface accelerate downward at a standard rate of approximately 9.8 meters per second squared ($9.8 \\text{ m/s}^2$)."
+  },
+  {
+    "question": "Which state of matter has a definite volume but no definite shape?",
+    "options": ["A. Solid", "B. Liquid", "C. Gas", "D. Plasma"],
+    "correct_answer": "B",
+    "explanation": "Liquids conform dynamically to the shape of whatever container they occupy but maintain a consistent, unyielding volume."
+  },
+  {
+    "question": "What type of energy is stored in an object due to its position or height?",
+    "options": ["A. Kinetic energy", "B. Potential energy", "C. Thermal energy", "D. Chemical energy"],
+    "correct_answer": "B",
+    "explanation": "Potential energy is stored energy possessed by an object due to its relative position, state, or height within a gravitational field."
+  },
+  {
+    "question": "What phenomenon causes a straw placed in a glass of water to look bent or broken?",
+    "options": ["A. Reflection", "B. Diffraction", "C. Refraction", "D. Dispersion"],
+    "correct_answer": "C",
+    "explanation": "Refraction is the bending of light waves when passing from one transparent medium (air) into another of different density (water)."
+  },
+  {
+    "question": "According to Ohm's Law, what is the mathematical relationship between Voltage (V), Current (I), and Resistance (R)?",
+    "options": ["A. V = I / R", "B. V = I × R", "C. V = R / I", "D. V = I + R"],
+    "correct_answer": "B",
+    "explanation": "Ohm's Law states that voltage equals current multiplied by resistance ($V = IR$)."
+  },
+  {
+    "question": "What is the speed of light in a vacuum (approximate standard value)?",
+    "options": ["A. 300,000 m/s", "B. 3,000,000 m/s", "C. 30,000,000 m/s", "D. 300,000,000 m/s"],
+    "correct_answer": "D",
+    "explanation": "Light travels through a vacuum at a universal limit speed of roughly $3 \\times 10^8 \\text{ m/s}$ (300 million meters per second)."
+  },
+  {
+    "question": "Which Newton's law states that for every action, there is an equal and opposite reaction?",
+    "options": ["A. First Law", "B. Second Law", "C. Third Law", "D. Law of Gravitation"],
+    "correct_answer": "C",
+    "explanation": "Newton's Third Law of Motion dictates that interacting forces exist in pairs matching equally in magnitude while opposing directions."
+  },
+  {
+    "question": "What instrument is explicitly designed to measure electric current running through a circuit branch?",
+    "options": ["A. Voltmeter", "B. Ammeter", "C. Barometer", "D. Thermometer"],
+    "correct_answer": "B",
+    "explanation": "An ammeter is connected in series along circuit paths to track electric current measured in amperes (Amps)."
+  },
+  {
+    "question": "What form of heat transfer happens through direct physical contact between molecular structures?",
+    "options": ["A. Conduction", "B. Convection", "C. Radiation", "D. Insulation"],
+    "correct_answer": "A",
+    "explanation": "Conduction transfers thermal energy via kinetic collisions spreading across adjacent molecules touching directly."
+  },
+  {
+    "question": "What type of wave is a sound wave?",
+    "options": ["A. Transverse wave", "B. Electromagnetic wave", "C. Longitudinal wave", "D. Radio wave"],
+    "correct_answer": "C",
+    "explanation": "Sound waves require material mediums to propagate, displacing molecules parallel to the primary pathway wave movement pattern (longitudinal compression)."
+  },
+  {
+    "question": "What is the primary metric unit used to measure electrical resistance properties?",
+    "options": ["A. Ampere", "B. Volt", "C. Ohm", "D. Coulomb"],
+    "correct_answer": "C",
+    "explanation": "The Ohm (represented by the Greek letter Omega: $\\Omega$) represents standard electrical circuit impedance or resistance values."
+  },
+  {
+    "question": "What is the thermodynamic term describing an absolute lack of heat energy where all molecular motion ceases?",
+    "options": ["A. 0° Celsius", "B. Absolute Zero", "C. Freezing Point", "D. Sub-zero"],
+    "correct_answer": "B",
+    "explanation": "Absolute Zero ($0 \\text{ Kelvin}$ or $-273.15^\\circ \\text{C}$) marks the theoretical floor threshold limit where atomic structures lose all thermal kinetic energy."
+  },
+  {
+    "question": "Which optical lens expands light rays outward, acting to disperse them from a focal center?",
+    "options": ["A. Convex lens", "B. Concave lens", "C. Bifocal lens", "D. Cylindrical lens"],
+    "correct_answer": "B",
+    "explanation": "Concave lenses curve inward like a cave, diverging light rays traveling flatly into diverging angular properties."
+  },
+  {
+    "question": "What is the primary scalar quantity metric used to evaluate electrical work capacities per unit time?",
+    "options": ["A. Joule", "B. Newton-meter", "C. Watt", "D. Ampere-hour"],
+    "correct_answer": "C",
+    "explanation": "The Watt (W) defines units of physical or electric power capacity equivalent to burning one Joule of resource energy every second ($1 \\text{ J/s}$)."
+  },
+  {
+    "question": "What core property prevents moving objects from altering their velocity or stopping unless external actions compel adjustments?",
+    "options": ["A. Momentum", "B. Inertia", "C. Friction", "D. Gravity"],
+    "correct_answer": "B",
+    "explanation": "Inertia describes an inherent natural mass resistance working to resist state changes in motion, tied down directly to Newton's First Law."
+  },
+  {
+    "question": "What standard frequency unit captures cyclic iterations counting structural wave oscillations per second?",
+    "options": ["A. Decibel", "B. Hertz", "C. Meter", "D. Kelvin"],
+    "correct_answer": "B",
+    "explanation": "Hertz (Hz) values capture uniform frequency patterns describing wave cycles occurring exactly over one second elapsed runtime frames."
+  },
+  {
+    "question": "What core particle carries electromagnetic interactions inside chemical structures, flowing systematically to generate electricity?",
+    "options": ["A. Proton", "B. Neutron", "C. Electron", "D. Photon"],
+    "correct_answer": "C",
+    "explanation": "Electricity is defined as the directional flow of free moving negative valence electrons traversing conductors."
+  },
+  {
+    "question": "What calculation isolates an item's density property?",
+    "options": ["A. Mass × Volume", "B. Volume / Mass", "C. Mass / Volume", "D. Weight × Gravity"],
+    "correct_answer": "C",
+    "explanation": "Density represents internal composition density packing tracking mass concentrations strictly bounded by unit volume spaces ($D = m / V$)."
+  },
+  {
+    "question": "What mechanical force works to impede sliding contact faces moving over each other?",
+    "options": ["A. Gravity", "B. Friction", "C. Centripetal Force", "D. Tension"],
+    "correct_answer": "B",
+    "explanation": "Friction works explicitly to resist sliding structural motion profiles occurring symmetrically across contacting surface spaces."
+  }
+  ]
+}

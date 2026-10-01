@@ -1,0 +1,131 @@
+{
+  "maths": [
+    {
+      "question": "If 2x + 5 = 15, what is the value of x?",
+      "options": ["A. 5", "B. 10", "C. 7", "D. 3"],
+      "correct_answer": "A",
+      "explanation": "Subtract 5 from both sides: 2x = 10. Divide both sides by 2: x = 5."
+    },
+
+  {
+    "question": "If 2x + 5 = 15, what is the value of x?",
+    "options": ["A. 5", "B. 10", "C. 7", "D. 3"],
+    "correct_answer": "A",
+    "explanation": "Subtract 5 from both sides: 2x = 10. Then divide both sides by 2: x = 5."
+  },
+  {
+    "question": "What is the value of 7 + 3 × 5 - 2 using the order of operations?",
+    "options": ["A. 48", "B. 20", "C. 23", "D. 16"],
+    "correct_answer": "B",
+    "explanation": "Following BODMAS/PEMDAS, do multiplication first: 3 × 5 = 15. Then add and subtract from left to right: 7 + 15 - 2 = 20."
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["A. 11", "B. 12", "C. 14", "D. 16"],
+    "correct_answer": "B",
+    "explanation": "Multiplying 12 by itself (12 × 12) gives exactly 144."
+  },
+  {
+    "question": "A triangle has a base of 8 cm and a height of 5 cm. What is its area?",
+    "options": ["A. 40 sq cm", "B. 20 sq cm", "C. 13 sq cm", "D. 26 sq cm"],
+    "correct_answer": "B",
+    "explanation": "The formula for the area of a triangle is 0.5 × base × height. So, 0.5 × 8 × 5 = 20 sq cm."
+  },
+  {
+    "question": "Solve for y: 3y - 7 = y + 9.",
+    "options": ["A. y = 1", "B. y = 4", "C. y = 8", "D. y = 16"],
+    "correct_answer": "C",
+    "explanation": "Subtract y from both sides: 2y - 7 = 9. Add 7 to both sides: 2y = 16. Divide by 2: y = 8."
+  },
+  {
+    "question": "What is 15% of 200?",
+    "options": ["A. 15", "B. 30", "C. 45", "D. 20"],
+    "correct_answer": "B",
+    "explanation": "To find the percentage, calculate (15 / 100) × 200 = 0.15 × 200 = 30."
+  },
+  {
+    "question": "Which of the following numbers is a prime number?",
+    "options": ["A. 9", "B. 15", "C. 21", "D. 29"],
+    "correct_answer": "D",
+    "explanation": "A prime number can only be divided by 1 and itself. 29 cannot be divided evenly by any other number."
+  },
+  {
+    "question": "What is the average (mean) of the numbers 4, 8, 12, and 16?",
+    "options": ["A. 8", "B. 10", "C. 12", "D. 40"],
+    "correct_answer": "B",
+    "explanation": "Add the numbers together: 4 + 8 + 12 + 16 = 40. Divide by the total count of numbers (4): 40 / 4 = 10."
+  },
+  {
+    "question": "What is the value of 5 raised to the power of 3 (5³)?",
+    "options": ["A. 15", "B. 25", "C. 75", "D. 125"],
+    "correct_answer": "D",
+    "explanation": "Exponents mean multiplying a number by itself: 5 × 5 × 5 = 125."
+  },
+  {
+    "question": "If a fair six-sided die is rolled, what is the probability of getting an even number?",
+    "options": ["A. 1/6", "B. 1/3", "C. 1/2", "D. 2/3"],
+    "correct_answer": "C",
+    "explanation": "A die has 3 even numbers (2, 4, 6) out of 6 total possibilities. 3/6 simplifies directly to 1/2."
+  },
+  {
+    "question": "What is the formula for calculating the circumference of a circle?",
+    "options": ["A. πr²", "B. 2πr", "C. 2πr²", "D. πd²"],
+    "correct_answer": "B",
+    "explanation": "The boundary distance (circumference) of a circle is calculated using C = 2 × π × radius (r)."
+  },
+  {
+    "question": "Find the Least Common Multiple (LCM) of 6 and 8.",
+    "options": ["A. 2", "B. 14", "C. 24", "D. 48"],
+    "correct_answer": "C",
+    "explanation": "The multiples of 6 are 6, 12, 18, 24... and the multiples of 8 are 8, 16, 24... The smallest shared multiple is 24."
+  },
+  {
+    "question": "What is the value of x if x/4 = 12?",
+    "options": ["A. 3", "B. 8", "C. 16", "D. 48"],
+    "correct_answer": "D",
+    "explanation": "Multiply both sides of the equation by 4 to isolate x: x = 12 × 4 = 48."
+  },
+  {
+    "question": "In a right-angled triangle, if the two shorter sides are 3 cm and 4 cm, what is the length of the hypotenuse?",
+    "options": ["A. 5 cm", "B. 7 cm", "C. 12 cm", "D. 25 cm"],
+    "correct_answer": "A",
+    "explanation": "Using the Pythagorean theorem (a² + b² = c²): 3² + 4² = 9 + 16 = 25. The square root of 25 is 5 cm."
+  },
+  {
+    "question": "What is the value of -15 + (-8) - (-5)?",
+    "options": ["A. -28", "B. -18", "C. -12", "D. -2"],
+    "correct_answer": "B",
+    "explanation": "Simplify the signs: -15 - 8 + 5. -15 - 8 evaluates to -23. Then -23 + 5 equals -18."
+  },
+  {
+    "question": "A laptop originally costing ₦100,000 is sold at a 10% discount. What is the sale price?",
+    "options": ["A. ₦10,000", "B. ₦85,000", "C. ₦90,000", "D. ₦99,000"],
+    "correct_answer": "C",
+    "explanation": "The discount amount is 10% of 100,000 = ₦10,000. Subtract this from the original price: 100,000 - 10,000 = ₦90,000."
+  },
+  {
+    "question": "How many degrees are there in a total straight line angle?",
+    "options": ["A. 90°", "B. 180°", "C. 270°", "D. 360°"],
+    "correct_answer": "B",
+    "explanation": "A right angle is 90°, and two adjacent right angles form a flat straight line measuring exactly 180°."
+  },
+  {
+    "question": "Evaluate the mathematical expression: (8 - 3) × (2 + 4).",
+    "options": ["A. 14", "B. 26", "C. 30", "D. 20"],
+    "correct_answer": "C",
+    "explanation": "First, evaluate the terms inside the parentheses: (5) × (6). Multiplying them yields 5 × 6 = 30."
+  },
+  {
+    "question": "If a car travels at a constant speed of 60 km/h, how far will it travel in 2.5 hours?",
+    "options": ["A. 120 km", "B. 140 km", "C. 150 km", "D. 160 km"],
+    "correct_answer": "C",
+    "explanation": "Distance is calculated as speed × time. Therefore: 60 km/h × 2.5 hours = 150 km."
+  },
+  {
+    "question": "What is the next number in the geometric sequence: 2, 6, 18, 54, ...?",
+    "options": ["A. 72", "B. 108", "C. 162", "D. 216"],
+    "correct_answer": "C",
+    "explanation": "The common ratio multiplier pattern is ×3. Multiplying the last term by the ratio yields: 54 × 3 = 162."
+  }
+  ]
+}

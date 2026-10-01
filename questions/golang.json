@@ -1,0 +1,125 @@
+{
+     "golang": [
+  {
+    "question": "Which keyword is used to declare a variable in Go?",
+    "options": ["A. let", "B. var", "C. variable", "D. def"],
+    "correct_answer": "B",
+    "explanation": "The 'var' keyword is the standard syntax used to declare variables in Go."
+  },
+  {
+    "question": "How do you declare a short variable with implicit type inference inside a Go function?",
+    "options": ["A. x = 10", "B. x := 10", "C. int x = 10", "D. var x = 10"],
+    "correct_answer": "B",
+    "explanation": "The ':=' short variable declaration operator declares and infers types for variables concisely within local scopes."
+  },
+  {
+    "question": "What is the entry point function for every executable Go program?",
+    "options": ["A. start()", "B. init()", "C. main()", "D. run()"],
+    "correct_answer": "C",
+    "explanation": "Go requires a function named main() situated inside package main to initiate execution targets."
+  },
+  {
+    "question": "What package provides formatting primitives like Println in Go?",
+    "options": ["A. format", "B. fmt", "C. stdio", "D. print"],
+    "correct_answer": "B",
+    "explanation": "The 'fmt' package (short for format) contains code facilitating reading and printing operations to the console."
+  },
+  {
+    "question": "What is the default value (zero-value) of an uninitialized int variable in Go?",
+    "options": ["A. nil", "B. null", "C. 0", "D. undefined"],
+    "correct_answer": "C",
+    "explanation": "Go enforces safe default properties; unassigned numeric values default cleanly back to 0."
+  },
+  {
+    "question": "How do you define loops in Go?",
+    "options": ["A. while loop", "B. for loop", "C. foreach loop", "D. do-while loop"],
+    "correct_answer": "B",
+    "explanation": "Go contains only one looping keyword constraint: the flexible and comprehensive 'for' block."
+  },
+  {
+    "question": "What keyword allows a function to postpone execution until the surrounding function finishes?",
+    "options": ["A. delay", "B. post", "C. defer", "D. wait"],
+    "correct_answer": "C",
+    "explanation": "The 'defer' keyword schedules functions to activate in LIFO (Last-In, First-Out) order upon parent function exit operations."
+  },
+  {
+    "question": "What data structure in Go represents a dynamic, resizable view into an underlying array?",
+    "options": ["A. Map", "B. Slice", "C. Vector", "D. List"],
+    "correct_answer": "B",
+    "explanation": "Slices build upon foundational fixed arrays to offer a flexible dynamic abstraction."
+  },
+  {
+    "question": "How are errors typically managed in Go function signatures?",
+    "options": ["A. try/catch blocks", "B. Returning an error value as the last result", "C. Checking global error integers", "D. Global handlers"],
+    "correct_answer": "B",
+    "explanation": "Go values errors explicitly as simple return elements, avoiding custom throwing abstractions entirely."
+  },
+  {
+    "question": "What keyword is used to spawn a concurrent, lightweight execution thread (goroutine) in Go?",
+    "options": ["A. thread", "B. go", "C. async", "D. spawn"],
+    "correct_answer": "B",
+    "explanation": "Prefixing an existing target invocation sequence with the 'go' keyword spawns an independent active goroutine."
+  },
+  {
+    "question": "What mechanism enables synchronized communication and data sharing between Goroutines?",
+    "options": ["A. Channels", "B. Locks", "C. Semaphores", "D. Shared Maps"],
+    "correct_answer": "A",
+    "explanation": "Channels function as safe conduits connecting concurrent processes safely using communication operators."
+  },
+  {
+    "question": "What is the name of the standard CLI tool used to format Go source code files automatically?",
+    "options": ["A. gofmt", "B. go lint", "C. go clean", "D. go tidy"],
+    "correct_answer": "A",
+    "explanation": "The 'gofmt' CLI tool ensures code universally adheres to official Go layout standards across development platforms."
+  },
+  {
+    "question": "How do you declare a constant value in Go?",
+    "options": ["A. constant x = 5", "B. const x = 5", "C. final x = 5", "D. let x = 5"],
+    "correct_answer": "B",
+    "explanation": "The 'const' operator flags variable items as hard-coded unchanging primitives."
+  },
+  {
+    "question": "What is the pointer symbol used to discover the underlying memory location of an item in Go?",
+    "options": ["A. *", "B. &", "C. #", "D. @"],
+    "correct_answer": "B",
+    "explanation": "The ampersand (&) references physical memory coordinates, resulting in a pointer allocation."
+  },
+  {
+    "question": "Which keyword defines custom types, interfaces, or structs in Go?",
+    "options": ["A. struct", "B. interface", "C. type", "D. class"],
+    "correct_answer": "C",
+    "explanation": "The 'type' keyword introduces structural templates mapping user definitions down to logical components."
+  },
+  {
+    "question": "What structure replaces object-oriented classes inside Go?",
+    "options": ["A. Modules", "B. Structs", "C. Templates", "D. Mappings"],
+    "correct_answer": "B",
+    "explanation": "Go relies heavily on structs to encapsulate field records without class inheritance complexities."
+  },
+  {
+    "question": "What does an uninitialized pointer default to in Go?",
+    "options": ["A. nil", "B. null", "C. 0", "D. void"],
+    "correct_answer": "A",
+    "explanation": "Pointers, maps, slices, and channels evaluate natively to a zero-value placeholder known as nil."
+  },
+  {
+    "question": "How do you add a new item into an existing slice?",
+    "options": ["A. slice.push(item)", "B. slice.add(item)", "C. append(slice, item)", "D. insert(slice, item)"],
+    "correct_answer": "C",
+    "explanation": "The globally exposed append() built-in grows slice instances dynamically while managing allocations."
+  },
+  {
+    "question": "Which of these expressions cleanly checks if a map key 'status' exists?",
+    "options": ["A. val = myMap[\"status\"]", "B. val, ok := myMap[\"status\"]", "C. if myMap.has(\"status\")", "D. check(myMap[\"status\"])"],
+    "correct_answer": "B",
+    "explanation": "Go returns a trailing boolean (ok) from maps specifying item presence clearly."
+  },
+  {
+    "question": "Can you declare top-level global variables using the short := syntax in Go?",
+    "options": ["A. Yes, anywhere", "B. No, only inside functions", "C. Only inside packages", "D. Only for numbers"],
+    "correct_answer": "B",
+    "explanation": "The short variable declaration operator (:=) throws assignment exceptions outside active local function lines."
+  }
+]
+  }
+  
