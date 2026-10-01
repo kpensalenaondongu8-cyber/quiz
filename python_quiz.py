@@ -1,16 +1,24 @@
+from pathlib import Path
 import time
 import json
 
-def run_quiz():
+def python_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
-
-    with open("questions.json", "r") as file:
+    
+    current_dir = Path(__file__).resolve().parent
+    file_path = current_dir.parent /"quiz" /"questions" /"python.json"
+    try:
+      with open(file_path, "r") as file:
         all_data = json.load(file)  
-        
-        quiz_questions = all_data['physics'] + all_data['chemistry'] + all_data['maths'] + all_data['current_affairs']
+    except FileNotFoundError:
+        print(f"\n❌ Error: Could not find your JSON file at: {file_path}")
+        print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
+        return
+     
+    quiz_questions = all_data['python']
 
     score = 0
     total_questions = len(quiz_questions)

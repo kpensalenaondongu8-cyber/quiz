@@ -1,6 +1,6 @@
 from create_acct import create_acct
 from login import login
-from quiz import run_quiz
+from python_quiz import python_quiz
 import time
 
 print("--- 1.Login. ---\n--- 2.SignUp ---")
@@ -46,4 +46,4 @@ while True:
         user_input2 = input("select:  ")
 
         if user_input2 == "1" or user_input2 == "Quiz":
-            run_quiz() 
+            python_quiz() 
