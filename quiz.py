@@ -1,29 +1,17 @@
 import time
-
-quiz_questions = [
-    {
-        "question": "Which of the following is a physical change?",
-        "options": ["A. Burning of wood", "B. Melting of ice", "C. Rusting of iron", "D. Souring of milk"],
-        "correct_answer": "B"
-    },
-    {
-        "question": "In Nigeria, the National Youth Service Corps (NYSC) was established in what year?",
-        "options": ["A. 1960", "B. 1973", "C. 1999", "D. 2011"],
-        "correct_answer": "B"
-    },
-    {
-        "question": "If 2x + 5 = 15, what is the value of x?",
-        "options": ["A. 5", "B. 10", "C. 7", "D. 3"],
-        "correct_answer": "A"
-    }
-]
+import json
 
 def run_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
-    
+
+    with open("questions.json", "r") as file:
+        all_data = json.load(file)  
+        
+        quiz_questions = all_data['physics'] + all_data['chemistry'] + all_data['maths'] + all_data['current_affairs']
+
     score = 0
     total_questions = len(quiz_questions)
     
@@ -40,7 +28,12 @@ def run_quiz():
             score += 1
         else:
             print(f"❌ Incorrect. The correct answer was {item['correct_answer']}.\n")
-            
+            print("getting explanation....... ")
+            time.sleep(1)
+            print()
+            print(item['explanation'])
+            time.sleep(1)
+  
         time.sleep(1) 
         print("-" * 40)
 
