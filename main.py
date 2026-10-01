@@ -1,6 +1,6 @@
 from create_acct import create_acct
 from login import login
-
+from quiz import run_quiz
 import time
 
 print("--- 1.Login. ---\n--- 2.SignUp ---")
@@ -27,16 +27,15 @@ while True:
         elif user_input1 == "Login" or user_input1 == "1":
 
             try:
-                number = int(input("Enter registered number: "))
+                number = input("Enter registered number: ")
 
             except ValueError:
                 print("Invalid Sytax") 
             password = input("Enter Password: ")
-            login(number, password)
             time.sleep(2)
-            print("---- Login Successfully ----")
+            login(number, password)
             print()
-
+            time.sleep(2)
 
 
 
@@ -44,5 +43,7 @@ while True:
         print("select: \n1.Quiz\n2.Lessons")
         print()
 
-        user_input = input("select:  ")
+        user_input2 = input("select:  ")
 
+        if user_input2 == "1" or user_input2 == "Quiz":
+            run_quiz() 
