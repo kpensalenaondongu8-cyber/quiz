@@ -10,7 +10,7 @@ def create_acct(name1, name2, name3, number, password):
             "Number": number,
             "Password": password
       }]        
-
+      data.append(user_details)
 
       with open("users.json", "w") as file:
-            json.dump(user_details, file, indent=4)
+            json.dump(data, file, indent=4)
