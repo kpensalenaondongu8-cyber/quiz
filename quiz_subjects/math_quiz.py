@@ -10,7 +10,7 @@ def math_quiz():
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"quiz" /"questions" /"python.json"
+    file_path = current_dir.parent /"questions" /"math.json"
     try:
       with open(file_path, "r") as file:
         all_data = json.load(file)  

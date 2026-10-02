@@ -5,12 +5,12 @@ import json
 def physics_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
-    print("           CURRENT_AFFAIRS       ")
+    print("           PHYSICS       ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"quiz" /"questions" /"python.json"
+    file_path = current_dir.parent /"questions" /"physics.json"
     try:
       with open(file_path, "r") as file:
         all_data = json.load(file)  
