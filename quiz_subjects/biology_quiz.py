@@ -16,7 +16,7 @@ def biology_quiz():
         all_data = json.load(file)  
     except FileNotFoundError:
         print(f"\n❌ Error: Could not find your JSON file at: {file_path}")
-        print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
+        print("Please check that the 'questions' folder and 'biology.json' exist inside your project.")
         return
      
     quiz_questions = all_data['biology']

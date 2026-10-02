@@ -10,6 +10,7 @@ from quiz_subjects.current_aff_quiz import current_affairs_quiz
 from quiz_subjects.golang_quiz import golang_quiz
 from quiz_subjects.math_quiz import math_quiz
 from quiz_subjects.java_script_quiz import java_script_quiz
+from lesson_subjects.biology import biology_lesson
 
 
 
@@ -22,6 +23,8 @@ print()
 project_dir = Path(__file__).resolve().parent
 file_path = project_dir /"quiz_subjects"
 questions_path = project_dir /"questions"
+lessons_path = project_dir /"lesson_subjects"
+lessons_file = project_dir/"lessons"
 
 
 while True: 
@@ -102,4 +105,14 @@ while True:
                     
 
                 elif user_input2 == "2":
-                       print(0)
+                       available_lessons = list(lessons_file.glob("*.txt"))
+                       print("-------- AVAILABLE-LESSONS --------")
+                       print()
+                       for index, path in enumerate(available_lessons, 1):
+                            print(f"{index}. {path.stem.capitalize()}")
+                            print()
+
+                       choice2 = input("Select choice: ")
+
+                       if choice2 == "1":
+                            biology_lesson()
