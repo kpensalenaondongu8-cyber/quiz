@@ -14,10 +14,11 @@ def biology_lesson():
     try:
         with open(file_path, "r") as file:
             file_content = file.read()
+            print(file_content)             
+
 
     except FileNotFoundError:
             print(f"couldnt find the file at {file_path}")
             print("make sure lessons and biology exist in your director")
-
-    return(file_content)             
+            return None
 
