@@ -24,8 +24,7 @@ from lesson_subjects.python import python_lesson
 
 print("--- 1.Login. ---\n--- 2.SignUp ---")
 print()
-user_input1 =  input("select mode: ")
-print()
+
 
 project_dir = Path(__file__).resolve().parent
 file_path = project_dir /"quiz_subjects"
@@ -35,6 +34,8 @@ lessons_file = project_dir/"lessons"
 
 
 while True: 
+        user_input1 =  input("select mode: ")
+        print()
         if user_input1 ==  "SignUp" or user_input1 == "2":
             print("---- fill the spaces bellow ----")
             print()
@@ -52,99 +53,106 @@ while True:
 
         elif user_input1 == "Login" or user_input1 == "1":
 
-            try:
-                number = input("Enter registered number: ")
-
-            except ValueError:
-                print("Invalid Sytax") 
+            number = input("Enter registered number: ")
             password = input("Enter Password: ")
             time.sleep(1)
             login(number, password)
             print()
             time.sleep(1)
+        else:
+            print("Enter the above values")
+            print() 
+            continue
+              
 
 
 
-            while True:
-                print("select: \n1.Quiz\n2.Lessons\n3.Exit")
+        while True:
+            print("select: \n1.Quiz\n2.Lessons\n3.Exit")
+            print()
+
+            user_input2 = input("select:  ")
+
+            if user_input2 == "1" or user_input2 == "Quiz":
+
+                available_quizzes = list(questions_path.glob("*.json"))
+                print("----- Available Quizzes -----")
+                print()
+                for index, path in enumerate(available_quizzes, 1):
+                    print(f"{index}. {path.stem.capitalize()}")
+
+                print()
+                choice = input("Select a number: ")
+
+                if choice == "1":
+                    biology_quiz()
+
+                elif choice == "2":
+                    chemistry_quiz()
+
+                elif choice == "3": 
+                    current_affairs_quiz()
+
+                elif choice == "4":
+                    physics_quiz()
+
+                elif choice == "5":
+                    golang_quiz()
+
+                elif choice == "6":
+                    math_quiz()
+
+                elif choice == "7":
+                    python_quiz()
+
+                elif choice == "8":
+                    java_script_quiz()
+
+                else:
+                    print("subject not available now")
+                    print()
+
+            elif user_input2 == "2":
+                available_lessons = list(lessons_file.glob("*.txt"))
+                print("-------- AVAILABLE-LESSONS --------")
+                print()
+                for index, path in enumerate(available_lessons, 1):
+                        print(f"{index}. {path.stem.capitalize()}")
+                        print()
+
+                choice2 = input("Select choice: ")
                 print()
 
-                user_input2 = input("select:  ")
+                if choice2 == "1":
+                        physics_lessons()
 
-                if user_input2 == "1" or user_input2 == "Quiz":
+                elif choice2 == "2":
+                    biology_lesson()
 
-                    available_quizzes = list(questions_path.glob("*.json"))
-                    print("----- Available Quizzes -----")
-                    print()
-                    for index, path in enumerate(available_quizzes, 1):
-                        print(f"{index}. {path.stem.capitalize()}")
+                elif choice2 == "3":    
+                    math_lesson()
 
-                    print()
-                    choice = input("Select a number: ")
+                elif choice2 == "4":
+                    golang_lesson()
 
-                    if choice == "1":
-                        biology_quiz()
+                elif choice2 == "5":
+                        current_affairs_lesson()
 
-                    elif choice == "2":
-                        chemistry_quiz()
+                elif choice2 == "6":
+                        python_lesson()
 
-                    elif choice == "3": 
-                        current_affairs_quiz()
+                elif choice2 == "7":
+                        java_script_lesson() 
 
-                    elif choice == "4":
-                        physics_quiz()
+                elif choice2 == "8":
+                        chemistry_lesson()
+                else:
+                        print("Subject unavailable")
+                        print()                          
 
-                    elif choice == "5":
-                        golang_quiz()
-
-                    elif choice == "6":
-                        math_quiz()
-
-                    elif choice == "7":
-                        python_quiz()
-
-                    elif choice == "8":
-                        java_script_quiz()
-
-                    else:
-                        print("subject not available now")
-                    
-                    
-
-                elif user_input2 == "2":
-                       available_lessons = list(lessons_file.glob("*.txt"))
-                       print("-------- AVAILABLE-LESSONS --------")
-                       print()
-                       for index, path in enumerate(available_lessons, 1):
-                            print(f"{index}. {path.stem.capitalize()}")
-                            print()
-
-                       choice2 = input("Select choice: ")
-                       print()
-
-                       if choice2 == "1":
-                            physics_lessons()
-
-                       elif choice2 == "2":
-                           biology_lesson()
-
-                       elif choice2 == "3":    
-                           math_lesson()
-
-                       elif choice2 == "4":
-                           golang_lesson()
-
-                       elif choice2 == "5":
-                              current_affairs_lesson()
-
-                       elif choice2 == "6":
-                            python_lesson()
-
-                       elif choice2 == "7":
-                            java_script_lesson() 
-
-                       elif choice2 == "8":
-                            chemistry_lesson()
-                       else:
-                            print("Subject unavailable")
-                            print()                          
+            elif user_input2 == "3":
+                print("GoodBye")
+                break           
+            
+            else:
+                print("Enter the above digits")
