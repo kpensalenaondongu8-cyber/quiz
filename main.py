@@ -11,6 +11,13 @@ from quiz_subjects.golang_quiz import golang_quiz
 from quiz_subjects.math_quiz import math_quiz
 from quiz_subjects.java_script_quiz import java_script_quiz
 from lesson_subjects.biology import biology_lesson
+from lesson_subjects.chemistry import chemistry_lesson
+from lesson_subjects.current_affairs import current_affairs_lesson
+from lesson_subjects.golang import golang_lesson
+from lesson_subjects.java_script import java_script_lesson
+from lesson_subjects.maths import math_lesson
+from lesson_subjects.physics import physics_lessons
+from lesson_subjects.python import python_lesson
 
 
 
@@ -51,10 +58,10 @@ while True:
             except ValueError:
                 print("Invalid Sytax") 
             password = input("Enter Password: ")
-            time.sleep(2)
+            time.sleep(1)
             login(number, password)
             print()
-            time.sleep(2)
+            time.sleep(1)
 
 
 
@@ -113,6 +120,31 @@ while True:
                             print()
 
                        choice2 = input("Select choice: ")
+                       print()
 
                        if choice2 == "1":
-                            biology_lesson()
+                            physics_lessons()
+
+                       elif choice2 == "2":
+                           biology_lesson()
+
+                       elif choice2 == "3":    
+                           math_lesson()
+
+                       elif choice2 == "4":
+                           golang_lesson()
+
+                       elif choice2 == "5":
+                              current_affairs_lesson()
+
+                       elif choice2 == "6":
+                            python_lesson()
+
+                       elif choice2 == "7":
+                            java_script_lesson() 
+
+                       elif choice2 == "8":
+                            chemistry_lesson()
+                       else:
+                            print("Subject unavailable")
+                            print()                          
