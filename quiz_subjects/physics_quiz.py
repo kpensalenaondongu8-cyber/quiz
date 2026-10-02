@@ -2,10 +2,10 @@ from pathlib import Path
 import time
 import json
 
-def golang_quiz():
+def physics_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
-    print("            GOLANG               ")
+    print("           CURRENT_AFFAIRS       ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
@@ -19,7 +19,7 @@ def golang_quiz():
         print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
         return
      
-    quiz_questions = all_data['golang']
+    quiz_questions = all_data['physics']
 
     score = 0
     total_questions = len(quiz_questions)
@@ -61,4 +61,4 @@ def golang_quiz():
     print("===========================================================")
 
 if __name__ == "__main__":
-    golang_quiz()
+    physics_quiz()

@@ -5,6 +5,7 @@ import json
 def current_affairs_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
+    print("           CURRENT_AFFAIRS       ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
@@ -18,7 +19,7 @@ def current_affairs_quiz():
         print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
         return
      
-    quiz_questions = all_data['python']
+    quiz_questions = all_data['current_affairs']
 
     score = 0
     total_questions = len(quiz_questions)
@@ -60,4 +61,4 @@ def current_affairs_quiz():
     print("===========================================================")
 
 if __name__ == "__main__":
-    run_quiz()
+    current_affairs_quiz()

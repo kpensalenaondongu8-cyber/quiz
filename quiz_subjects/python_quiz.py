@@ -5,11 +5,12 @@ import json
 def python_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
+    print("            PYTHON               ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"quiz" /"questions" /"python.json"
+    file_path = current_dir.parent /"questions" /"python.json"
     try:
       with open(file_path, "r") as file:
         all_data = json.load(file)  
@@ -60,4 +61,4 @@ def python_quiz():
     print("===========================================================")
 
 if __name__ == "__main__":
-    run_quiz()
+    python_quiz()

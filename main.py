@@ -2,6 +2,17 @@ from create_acct import create_acct
 from login import login
 import time
 from pathlib import Path
+from quiz_subjects.biology_quiz import biology_quiz
+from quiz_subjects.chemistry_quiz import chemistry_quiz
+from quiz_subjects.physics_quiz import physics_quiz
+from quiz_subjects.python_quiz import python_quiz 
+from quiz_subjects.current_aff_quiz import current_affairs_quiz
+from quiz_subjects.golang_quiz import golang_quiz
+from quiz_subjects.math_quiz import math_quiz
+from quiz_subjects.java_script_quiz import java_script_quiz
+
+
+
 
 print("--- 1.Login. ---\n--- 2.SignUp ---")
 print()
@@ -45,7 +56,7 @@ while True:
 
 
 
-        print("select: \n1.Quiz\n2.Lessons")
+        print("select: \n1.Quiz\n2.Lessons\n3.Exit")
         print()
 
         user_input2 = input("select:  ")
@@ -59,4 +70,31 @@ while True:
                  print(f"{index}. {path.stem.capitalize()}")
 
             print()
-            choice = input("Select a number: ")     
+            choice = input("Select a number: ")
+
+            if choice == "1":
+                  biology_quiz()
+
+            elif choice == "2":
+                 chemistry_quiz()
+
+            elif choice == "3": 
+                 current_affairs_quiz()
+
+            elif choice == "4":
+                 physics_quiz()
+
+            elif choice == "5":
+                 golang_quiz()
+
+            elif choice == "6":
+                 math_quiz()
+
+            elif choice == "7":
+                 python_quiz()
+
+            elif choice == "8":
+                 java_script_quiz()
+
+            else:
+                 print("subject not available now")                                            

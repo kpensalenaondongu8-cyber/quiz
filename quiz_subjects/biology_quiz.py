@@ -2,15 +2,15 @@ from pathlib import Path
 import time
 import json
 
-def golang_quiz():
+def biology_quiz():
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
-    print("            GOLANG               ")
+    print("           BIOLOGY               ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"quiz" /"questions" /"python.json"
+    file_path = current_dir.parent /"questions" /"biology.json"
     try:
       with open(file_path, "r") as file:
         all_data = json.load(file)  
@@ -19,7 +19,7 @@ def golang_quiz():
         print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
         return
      
-    quiz_questions = all_data['golang']
+    quiz_questions = all_data['biology']
 
     score = 0
     total_questions = len(quiz_questions)
@@ -59,6 +59,3 @@ def golang_quiz():
     else:
         print("Status: Keep practicing! Failure is just an opportunity to learn. 💪")
     print("===========================================================")
-
-if __name__ == "__main__":
-    golang_quiz()
