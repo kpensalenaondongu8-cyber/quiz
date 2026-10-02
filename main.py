@@ -55,47 +55,51 @@ while True:
 
 
 
+            while True:
+                print("select: \n1.Quiz\n2.Lessons\n3.Exit")
+                print()
 
-        print("select: \n1.Quiz\n2.Lessons\n3.Exit")
-        print()
+                user_input2 = input("select:  ")
 
-        user_input2 = input("select:  ")
+                if user_input2 == "1" or user_input2 == "Quiz":
 
-        if user_input2 == "1" or user_input2 == "Quiz":
+                    available_quizzes = list(questions_path.glob("*.json"))
+                    print("----- Available Quizzes -----")
+                    print()
+                    for index, path in enumerate(available_quizzes, 1):
+                        print(f"{index}. {path.stem.capitalize()}")
 
-            available_quizzes = list(questions_path.glob("*.json"))
-            print("----- Available Quizzes -----")
-            print()
-            for index, path in enumerate(available_quizzes, 1):
-                 print(f"{index}. {path.stem.capitalize()}")
+                    print()
+                    choice = input("Select a number: ")
 
-            print()
-            choice = input("Select a number: ")
+                    if choice == "1":
+                        biology_quiz()
 
-            if choice == "1":
-                  biology_quiz()
+                    elif choice == "2":
+                        chemistry_quiz()
 
-            elif choice == "2":
-                 chemistry_quiz()
+                    elif choice == "3": 
+                        current_affairs_quiz()
 
-            elif choice == "3": 
-                 current_affairs_quiz()
+                    elif choice == "4":
+                        physics_quiz()
 
-            elif choice == "4":
-                 physics_quiz()
+                    elif choice == "5":
+                        golang_quiz()
 
-            elif choice == "5":
-                 golang_quiz()
+                    elif choice == "6":
+                        math_quiz()
 
-            elif choice == "6":
-                 math_quiz()
+                    elif choice == "7":
+                        python_quiz()
 
-            elif choice == "7":
-                 python_quiz()
+                    elif choice == "8":
+                        java_script_quiz()
 
-            elif choice == "8":
-                 java_script_quiz()
+                    else:
+                        print("subject not available now")
+                    
+                    
 
-            else:
-                 print("subject not available now")                                            
-             
+                elif user_input2 == "2":
+                       print(0)

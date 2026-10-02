@@ -1,0 +1,107 @@
+======================================================================
+                     THE ULTIMATE MATHEMATICS HANDBOOK                     
+======================================================================
+
+----------------------------------------------------------------------
+1. THE ORDER OF OPERATIONS (BODMAS / PEMDAS)
+----------------------------------------------------------------------
+When solving a mathematical string containing multiple operators, you 
+must follow a strict order of priority. 
+
+BODMAS Framework:
+- B : Brackets first               ( ) or [ ]
+- O : Orders                       Powers, Indices, or Square Roots
+- D / M : Division & Multiplication (Evaluate from Left to Right)
+- A / S : Addition & Subtraction    (Evaluate from Left to Right)
+
+Example Problem: 7 + 3 × 5 - 2
+- Multiply first: 3 × 5 = 15
+- Add next:       7 + 15 = 22
+- Subtract last:  22 - 2 = 20 (Final Answer)
+
+----------------------------------------------------------------------
+2. ALGEBRA & EQUATION ISOLATION
+----------------------------------------------------------------------
+Algebra uses letters (variables like x or y) to stand for unknown values. 
+To discover the unknown value, perform inverse (opposite) arithmetic 
+operations symmetrically to isolate the letter entirely on one side.
+
+- Inverse of Addition (+) is Subtraction (-)
+- Inverse of Multiplication (×) is Division (/)
+
+Example Problem: Solve for x if 2x + 5 = 15
+- Subtract 5 from both sides: 2x = 15 - 5  -> 2x = 10
+- Divide both sides by 2:     x = 10 / 2   ->  x = 5 (Final Answer)
+
+----------------------------------------------------------------------
+3. PRIME NUMBERS & ARITHMETIC PROPERTIES
+----------------------------------------------------------------------
+- Prime Number: A whole number strictly greater than 1 that cannot be 
+  divided evenly by any number except 1 and itself.
+  Examples: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31...
+  ⚠️ Note: 2 is the ONLY even prime number in existence!
+
+- Least Common Multiple (LCM): The smallest positive integer that is 
+  divisible evenly by a set of numbers.
+  Example (LCM of 6 and 8): 
+    Multiples of 6: 6, 12, 18, 24, 30...
+    Multiples of 8: 8, 16, 24, 32...
+    The smallest shared matching multiple is 24.
+
+----------------------------------------------------------------------
+4. GEOMETRY CORE FORMULAS
+----------------------------------------------------------------------
+- Area of a Triangle: Half of the base multiplied by the vertical height.
+  Formula: Area = 0.5 × Base × Height
+
+- Circumference of a Circle: The boundary distance around a circle.
+  Formula: Circumference = 2 × π × r  (where r is radius, π ≈ 3.14159)
+
+- Area of a Circle: The internal flat boundary space.
+  Formula: Area = π × r²
+
+- Straight Line Angle: A completely flat straight line forms an exact 
+  rotational angle of 180°. A complete circle rotation forms 360°.
+
+----------------------------------------------------------------------
+5. THE PYTHAGOREAN THEOREM
+----------------------------------------------------------------------
+Used exclusively on right-angled triangles to discover an unknown side length. 
+The hypotenuse (side c) is always the longest side sitting directly opposite 
+the 90-degree right angle.
+
+Formula: a² + b² = c²
+
+Example Problem: Shorter sides are 3 cm and 4 cm. Find the hypotenuse (c).
+- Square the sides:  3² + 4² = c²  ->  9 + 16 = c²
+- Sum the squares:   25 = c²
+- Find Square Root:  c = √25 = 5 cm (Final Answer)
+
+----------------------------------------------------------------------
+6. PERCENTAGES & COMMERCIAL ARITHMETIC
+----------------------------------------------------------------------
+A percentage represents a fractional ratio out of a baseline value of 100.
+
+- Finding a Percentage: (Percentage Rate / 100) × Base Amount
+  Example: Find 15% of 200.
+  Calculation: (15 / 100) × 200 = 0.15 × 200 = 30.
+
+- Calculating Discounted Prices: 
+  Example: A device costing ₦100,000 features a 10% holiday price cut.
+  Discount value: 10% of 100,000 = ₦10,000.
+  Final Sale Price: ₦100,000 - ₦10,000 = ₦90,000.
+
+----------------------------------------------------------------------
+7. BASIC STATISTICS (MEAN / PROBABILITY)
+----------------------------------------------------------------------
+- Mean (Average): The sum of all items divided by the total count.
+  Example: Mean of 4, 8, 12, 16.
+  Sum: 4 + 8 + 12 + 16 = 40. Count: 4 items.
+  Mean Calculation: 40 / 4 = 10.
+
+- Probability: The mathematical likelihood of a specific event occurring.
+  Formula: Favorable Outcomes / Total Possible Outcomes
+  Example: Probability of rolling an even number on a 6-sided die.
+  Favorable options: 3 numbers (2, 4, 6). Total options: 6 numbers.
+  Probability: 3 / 6 = 1/2 (50% chance).
+======================================================================
