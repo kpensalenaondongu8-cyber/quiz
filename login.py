@@ -8,7 +8,6 @@ def login(number, password):
        for all_data in data:
         
             if all_data['Number'] == number and all_data['Password'] == password:
-                print("Login Succesful!")
                 return True
             
        print("Invalid number or password")

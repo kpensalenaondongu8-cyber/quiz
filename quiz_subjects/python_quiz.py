@@ -31,10 +31,13 @@ def python_quiz():
             print(option)
             
         user_guess = input("\nYour answer (A, B, C, or D): ").strip().upper()
+      
         
         if user_guess == item['correct_answer']:
             print("✅ Correct! Brilliant.\n")
             score += 1
+        elif user_guess not in item['options']:
+            print("invalid option")    
         else:
             print(f"❌ Incorrect. The correct answer was {item['correct_answer']}.\n")
             print("getting explanation....... ")

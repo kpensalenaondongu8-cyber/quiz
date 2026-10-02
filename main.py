@@ -21,11 +21,6 @@ from lesson_subjects.python import python_lesson
 
 
 
-
-print("--- 1.Login. ---\n--- 2.SignUp ---")
-print()
-
-
 project_dir = Path(__file__).resolve().parent
 file_path = project_dir /"quiz_subjects"
 questions_path = project_dir /"questions"
@@ -34,6 +29,8 @@ lessons_file = project_dir/"lessons"
 
 
 while True: 
+        print("--- 1.Login. ---\n--- 2.SignUp ---")
+        print()
         user_input1 =  input("select mode: ")
         print()
         if user_input1 ==  "SignUp" or user_input1 == "2":
@@ -56,9 +53,16 @@ while True:
             number = input("Enter registered number: ")
             password = input("Enter Password: ")
             time.sleep(1)
-            login(number, password)
-            print()
-            time.sleep(1)
+            logged_in = login(number, password)
+            if logged_in:
+                 login(number, password)
+                 print("Loggin Succesful!")
+                 print()
+                 time.sleep(1)
+            else:
+                 print('You cant access the dashboard')
+                 print()
+                 continue     
         else:
             print("Enter the above values")
             print() 
