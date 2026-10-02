@@ -1,12 +1,17 @@
 from create_acct import create_acct
 from login import login
-from python_quiz import python_quiz
 import time
+from pathlib import Path
 
 print("--- 1.Login. ---\n--- 2.SignUp ---")
 print()
 user_input1 =  input("select mode: ")
 print()
+
+project_dir = Path(__file__).resolve().parent
+file_path = project_dir /"quiz_subjects"
+questions_path = project_dir /"questions"
+
 
 while True: 
         if user_input1 ==  "SignUp" or user_input1 == "2":
@@ -46,4 +51,12 @@ while True:
         user_input2 = input("select:  ")
 
         if user_input2 == "1" or user_input2 == "Quiz":
-            python_quiz() 
+
+            available_quizzes = list(questions_path.glob("*.json"))
+            print("----- Available Quizzes -----")
+            print()
+            for index, path in enumerate(available_quizzes, 1):
+                 print(f"{index}. {path.stem.capitalize()}")
+
+            print()
+            choice = input("Select a number: ")     
