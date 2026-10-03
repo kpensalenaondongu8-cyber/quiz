@@ -3,15 +3,7 @@ from login import login
 import time
 from pathlib import Path
 from quiz_subjects.quiz import run_quiz
-
-from lesson_subjects.biology import biology_lesson
-from lesson_subjects.chemistry import chemistry_lesson
-from lesson_subjects.current_affairs import current_affairs_lesson
-from lesson_subjects.golang import golang_lesson
-from lesson_subjects.java_script import java_script_lesson
-from lesson_subjects.maths import math_lesson
-from lesson_subjects.physics import physics_lessons
-from lesson_subjects.lessons import python_lesson
+from lesson_subjects.lessons import lessons
 
 
 
@@ -122,34 +114,35 @@ while True:
                 print()
 
                 if choice2 == "1":
-                        physics_lessons()
+                    lessons('physics')
 
                 elif choice2 == "2":
-                    biology_lesson()
+                    lessons('biology')
 
                 elif choice2 == "3":    
-                    math_lesson()
+                    lessons('math')
 
                 elif choice2 == "4":
-                    golang_lesson()
+                    lessons('golang')
 
                 elif choice2 == "5":
-                        current_affairs_lesson()
+                    lessons('current_affairs')
 
                 elif choice2 == "6":
-                        python_lesson()
+                    lessons('python')
 
                 elif choice2 == "7":
-                        java_script_lesson() 
+                    lessons('java_script') 
 
                 elif choice2 == "8":
-                        chemistry_lesson()
+                    lessons('chemistry')
                 else:
                         print("Subject unavailable")
                         print()                          
 
             elif user_input2 == "3":
                 print("GoodBye")
+                print()
                 break           
             
             else:
