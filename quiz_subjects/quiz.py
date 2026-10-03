@@ -1,25 +1,29 @@
 from pathlib import Path
 import time
 import json
+import random
 
-def math_quiz():
+def run_quiz(subject_name):
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
-    print("            MATHEMATICS          ")
+    print(f"        {subject_name.upper()}      ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"questions" /"math.json"
+    file_path = current_dir.parent /"questions" /f"subject_name.lower()"
+
     try:
       with open(file_path, "r") as file:
         all_data = json.load(file)  
     except FileNotFoundError:
         print(f"\n❌ Error: Could not find your JSON file at: {file_path}")
-        print("Please check that the 'questions' folder and 'python.json' exist inside your project.")
+        print(f"Please check that the 'questions {subject_name.lower()}' exist inside your project.")
         return
      
-    quiz_questions = all_data['math']
+    quiz_questions = (all_data[subject_name.lower()])
+
+    random.shuffle(quiz_questions)
 
     score = 0
     total_questions = len(quiz_questions)
@@ -31,10 +35,13 @@ def math_quiz():
             print(option)
             
         user_guess = input("\nYour answer (A, B, C, or D): ").strip().upper()
+      
         
         if user_guess == item['correct_answer']:
             print("✅ Correct! Brilliant.\n")
             score += 1
+        elif user_guess not in ['A', 'B', 'C', "'D"]:
+            print("invalid option moving to next question")    
         else:
             print(f"❌ Incorrect. The correct answer was {item['correct_answer']}.\n")
             print("getting explanation....... ")
@@ -53,7 +60,7 @@ def math_quiz():
     print(f"Percentage: {percentage:.1f}%")
     
     if percentage >= 70:
-        print("Status: Excellent! You are fully ready for JAMB/WAEC. 🎉")
+        print("Status: Excellent!. 🎉")
     elif percentage >= 50:
         print("Status: Pass. Put in a bit more study time! 👍")
     else:
@@ -61,4 +68,4 @@ def math_quiz():
     print("===========================================================")
 
 if __name__ == "__main__":
-    math_quiz()
+    run_quiz()

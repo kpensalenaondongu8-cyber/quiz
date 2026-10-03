@@ -5,7 +5,7 @@ from pathlib import Path
 from quiz_subjects.biology_quiz import biology_quiz
 from quiz_subjects.chemistry_quiz import chemistry_quiz
 from quiz_subjects.physics_quiz import physics_quiz
-from quiz_subjects.python_quiz import python_quiz 
+from quiz_subjects.quiz import python_quiz 
 from quiz_subjects.current_aff_quiz import current_affairs_quiz
 from quiz_subjects.golang_quiz import golang_quiz
 from quiz_subjects.math_quiz import math_quiz
