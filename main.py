@@ -2,14 +2,8 @@ from create_acct import create_acct
 from login import login
 import time
 from pathlib import Path
-from quiz_subjects.biology_quiz import biology_quiz
-from quiz_subjects.chemistry_quiz import chemistry_quiz
-from quiz_subjects.physics_quiz import physics_quiz
-from quiz_subjects.quiz import python_quiz 
-from quiz_subjects.current_aff_quiz import current_affairs_quiz
-from quiz_subjects.golang_quiz import golang_quiz
-from quiz_subjects.math_quiz import math_quiz
-from quiz_subjects.java_script_quiz import java_script_quiz
+from quiz_subjects.quiz import run_quiz
+
 from lesson_subjects.biology import biology_lesson
 from lesson_subjects.chemistry import chemistry_lesson
 from lesson_subjects.current_affairs import current_affairs_lesson
@@ -89,28 +83,28 @@ while True:
                 choice = input("Select a number: ")
 
                 if choice == "1":
-                    biology_quiz()
+                    run_quiz('biology')
 
                 elif choice == "2":
-                    chemistry_quiz()
+                    run_quiz('chemistry')
 
                 elif choice == "3": 
-                    current_affairs_quiz()
+                    run_quiz('current_affairs')
 
                 elif choice == "4":
-                    physics_quiz()
+                    run_quiz('physics')
 
                 elif choice == "5":
-                    golang_quiz()
+                    run_quiz('golang')
 
                 elif choice == "6":
-                    math_quiz()
+                    run_quiz('math')
 
                 elif choice == "7":
-                    python_quiz()
+                    run_quiz('python')
 
                 elif choice == "8":
-                    java_script_quiz()
+                    run_quiz('java_script')
 
                 else:
                     print("subject not available now")

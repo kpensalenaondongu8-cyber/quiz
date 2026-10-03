@@ -11,7 +11,7 @@ def run_quiz(subject_name):
     print("====================================\n")
     
     current_dir = Path(__file__).resolve().parent
-    file_path = current_dir.parent /"questions" /f"subject_name.lower()"
+    file_path = current_dir.parent /"questions" /f"{subject_name.lower()}.json"
 
     try:
       with open(file_path, "r") as file:
