@@ -6,7 +6,7 @@ import random
 def run_quiz(subject_name):
     print("====================================")
     print("      WELCOME TO THE QUIZ BOT    ")
-    print(f"        {subject_name.upper()}      ")
+    print(f"         {subject_name.upper()}      ")
     print("Prepare for your exams. Good luck!")
     print("====================================\n")
     

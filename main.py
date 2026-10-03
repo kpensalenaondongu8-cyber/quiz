@@ -11,7 +11,7 @@ from lesson_subjects.golang import golang_lesson
 from lesson_subjects.java_script import java_script_lesson
 from lesson_subjects.maths import math_lesson
 from lesson_subjects.physics import physics_lessons
-from lesson_subjects.python import python_lesson
+from lesson_subjects.lessons import python_lesson
 
 
 
