@@ -2,6 +2,7 @@ from pathlib import Path
 import time
 import json
 import random
+from history import save_quiz_result
 
 def run_quiz(subject_name):
     print("====================================")
@@ -60,6 +61,7 @@ def run_quiz(subject_name):
     percentage = (score / total_questions) * 100
     print(f"Percentage: {percentage:.1f}%")
     
+    save_quiz_result(subject_name, score, total_questions)
     if percentage >= 70:
         print("Status: Excellent!. 🎉")
     elif percentage >= 50:

@@ -4,6 +4,7 @@ import time
 from pathlib import Path
 from quiz_subjects.quiz import run_quiz
 from lesson_subjects.lessons import lessons
+from read_history import show_history 
 
 
 
@@ -58,7 +59,7 @@ while True:
 
 
         while True:
-            print("select: \n1.Quiz\n2.Lessons\n3.History\n4.Exit")
+            print("select: \n1.Quiz\n2.Lessons\n3.Exit")
             print()
 
             user_input2 = input("select:  ")
@@ -74,29 +75,23 @@ while True:
                 print()
                 choice = input("Select a number: ")
 
-                if choice == "1":
-                    run_quiz('biology')
+                if choice == "1": run_quiz('biology')
 
-                elif choice == "2":
-                    run_quiz('chemistry')
+                elif choice == "2":run_quiz('chemistry')
 
-                elif choice == "3": 
-                    run_quiz('current_affairs')
+                elif choice == "3": run_quiz('current_affairs')
 
-                elif choice == "4":
-                    run_quiz('physics')
+                elif choice == "4":run_quiz('physics')
 
-                elif choice == "5":
-                    run_quiz('golang')
+                elif choice == "5":run_quiz('golang')
 
-                elif choice == "6":
-                    run_quiz('math')
+                elif choice == "6":run_quiz('math')
 
-                elif choice == "7":
-                    run_quiz('python')
+                elif choice == "7":run_quiz('python')
 
-                elif choice == "8":
-                    run_quiz('java_script')
+                elif choice == "8": run_quiz('java_script')
+
+                elif choice == "9": show_history()
 
                 else:
                     print("subject not available now")
