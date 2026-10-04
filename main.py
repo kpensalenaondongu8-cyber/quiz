@@ -58,7 +58,7 @@ while True:
 
 
         while True:
-            print("select: \n1.Quiz\n2.Lessons\n3.Exit")
+            print("select: \n1.Quiz\n2.Lessons\n3.History\n4.Exit")
             print()
 
             user_input2 = input("select:  ")
@@ -141,7 +141,7 @@ while True:
                         print()                          
 
             elif user_input2 == "3":
-                print("GoodBye")
+                print()
                 print()
                 break           
             

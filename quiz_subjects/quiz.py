@@ -24,7 +24,8 @@ def run_quiz(subject_name):
     quiz_questions = (all_data[subject_name.lower()])
 
     random.shuffle(quiz_questions)
-
+    
+    
     score = 0
     total_questions = len(quiz_questions)
     

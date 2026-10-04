@@ -8,7 +8,8 @@ def create_acct(name1, name2, name3, number, password):
             "Middle_Name": name2,
             "Last_Name": name3,
             "Number": number,
-            "Password": password
+            "Password": password,
+            "History": []
       }]        
       data.append(user_details)
 
