@@ -23,16 +23,45 @@ while True:
         if user_input1 ==  "SignUp" or user_input1 == "2":
             print("---- fill the spaces bellow ----")
             print()
-            first_name = input("Enter first name: ")
-            middle_name = input("Enter middle name: ")
-            last_name = input("Enter last name: ")
-            number = input("Enter number: ")
-            password = input("Enter password: ")
-            create_acct(first_name, middle_name, last_name, number, password)
-            print()
-            time.sleep(2)
-            print("----- Account created successfully -----")
-            print()
+            first_name = input("Enter first name: ").strip()
+            middle_name = input("Enter middle name: ").strip()
+            last_name = input("Enter last name: ").strip()
+            number = input("Enter number: ").strip()
+            password = input("Enter password: ").strip()
+
+            errors = []
+
+            if first_name.isdigit():  
+                errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+            elif not first_name.isalpha():
+                errors.append(f"❌ Error: contains invalid characters")
+
+            if middle_name.isdigit():  
+                errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+            elif not first_name.isalpha():
+                errors.append(f"❌ Error: contains invalid characters")
+
+            if last_name.isdigit():  
+                errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+            elif not first_name.isalpha():
+                errors.append(f"❌ Error: contains invalid characters")
+
+            if number.isalpha():  
+                errors.append(f"❌ Error: 'Number' should be numeric digits, but you entered a word")
+            elif not number.isdigit(): 
+                errors.append(f"❌ Error: 'Number' must contain only digits")
+
+    
+            if errors:
+             for error in errors:
+                print(error)
+                continue
+            else:
+                create_acct(first_name, middle_name, last_name, number, password)
+                print()
+                time.sleep(2)
+                print("----- Account created successfully -----")
+                print()
 
 
         elif user_input1 == "Login" or user_input1 == "1":
