@@ -113,17 +113,19 @@ while True:
 
                 elif choice == "3": run_quiz('current_affairs')
 
-                elif choice == "4":run_quiz('physics')
+                elif choice == "4":run_quiz('geography')
 
-                elif choice == "5":run_quiz('golang')
+                elif choice == "5":run_quiz('physics')
 
-                elif choice == "6":run_quiz('math')
+                elif choice == "6":run_quiz('golang')
 
-                elif choice == "7":run_quiz('python')
+                elif choice == "7":run_quiz('math')
 
-                elif choice == "8": run_quiz('java_script')
+                elif choice == "8": run_quiz('python')
 
-                elif choice == "9": show_history()
+                elif choice == "9": run_quiz('java_script')
+
+                elif choice == "10": show_history()
 
                 else:
                     print("subject not available now")

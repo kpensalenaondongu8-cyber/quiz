@@ -16,13 +16,17 @@ def run_quiz(subject_name):
 
     try:
       with open(file_path, "r") as file:
-        all_data = json.load(file)  
+        all_data = json.load(file) 
+
     except FileNotFoundError:
         print(f"\n❌ Error: Could not find your JSON file at: {file_path}")
         print(f"Please check that the 'questions {subject_name.lower()}' exist inside your project.")
         return
-     
+
+    if all_data == "":
+        print("questions for this subject are not available now") 
     quiz_questions = (all_data[subject_name.lower()])
+
 
     random.shuffle(quiz_questions)
     
@@ -38,7 +42,6 @@ def run_quiz(subject_name):
             
         user_guess = input("\nYour answer (A, B, C, or D): ").strip().upper()
       
-        
         if user_guess == item['correct_answer']:
             print("✅ Correct! Brilliant.\n")
             score += 1
