@@ -28,3 +28,5 @@ def save_quiz_result(subject_name, score, total_questions):
     history_data.append(result_entry)
     with open(history_file, "w") as file:
         json.dump(history_data, file, indent=4)     
+
+        

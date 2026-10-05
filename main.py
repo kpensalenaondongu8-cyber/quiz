@@ -108,8 +108,7 @@ while True:
                 choice2 = input("Select choice: ")
                 print()
 
-                if choice2 == "1":
-                    lessons('physics')
+                if choice2 == "1":lessons('physics')
 
                 elif choice2 == "2":
                     lessons('biology')
