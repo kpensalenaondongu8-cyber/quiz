@@ -114,8 +114,7 @@ while True:
 
                 elif choice2 == "3":lessons('math')
 
-                elif choice2 == "4":
-                    lessons('golang')
+                elif choice2 == "4":lessons('golang')
 
                 elif choice2 == "5":
                     lessons('current_affairs')
