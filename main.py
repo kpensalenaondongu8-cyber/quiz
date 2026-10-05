@@ -33,29 +33,32 @@ while True:
 
             if first_name.isdigit():  
                 errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+                
             elif not first_name.isalpha():
                 errors.append(f"❌ Error: contains invalid characters")
-
+                
             if middle_name.isdigit():  
                 errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+                
             elif not first_name.isalpha():
                 errors.append(f"❌ Error: contains invalid characters")
-
+                
             if last_name.isdigit():  
-                errors.append(f"❌ Error: should be a name/word, but you entered numbers")
+                errors.append(f"❌ Error: should be a name/word, but you entered numbers")   
             elif not first_name.isalpha():
                 errors.append(f"❌ Error: contains invalid characters")
 
             if number.isalpha():  
-                errors.append(f"❌ Error: 'Number' should be numeric digits, but you entered a word")
+                errors.append(f"❌ Error: 'Number' should be numeric digits, but you entered a word")   
             elif not number.isdigit(): 
                 errors.append(f"❌ Error: 'Number' must contain only digits")
+                
 
     
             if errors:
-             for error in errors:
-                print(error)
-                continue
+                   for error in errors:
+                             print(error)
+                   continue   
             else:
                 create_acct(first_name, middle_name, last_name, number, password)
                 print()
