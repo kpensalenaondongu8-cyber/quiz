@@ -116,20 +116,17 @@ while True:
 
                 elif choice2 == "4":lessons('golang')
 
-                elif choice2 == "5":
-                    lessons('current_affairs')
+                elif choice2 == "5":lessons('current_affairs')
 
-                elif choice2 == "6":
-                    lessons('python')
+                elif choice2 == "6":lessons('python')
 
-                elif choice2 == "7":
-                    lessons('java_script') 
+                elif choice2 == "7":lessons('java_script') 
 
-                elif choice2 == "8":
-                    lessons('chemistry')
+                elif choice2 == "8":lessons('chemistry')
+                
                 else:
-                        print("Subject unavailable")
-                        print()                          
+                    print("Subject unavailable")
+                    print()                          
 
             elif user_input2 == "3":
                 print()
