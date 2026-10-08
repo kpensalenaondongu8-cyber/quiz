@@ -16,15 +16,13 @@ while True:
           user_input4 = int(input("Enter total: "))
         except ValueError:
            print("total is an integer!")  
-        resource_invet(user_input1, user_input2, user_input3, user_input4)
-        print("resource added succefully")
 
+        resource_invet(user_input1, user_input2, user_input3, user_input4)
     elif user_input == "2":
         user_input1 = input("Enter fellow_id: ")
         user_input2 = input("Enter resource_id: ")
         try:
-          user_input3 = int(input("Enter quantity"))
+          user_input3 = int(input("Enter quantity: "))
         except ValueError:  
             print("Invalid input try numbers")
-    borrow(user_input1, user_input2, user_input3)
-    print("borrowed succefully")
+        borrow(user_input1, user_input2, user_input3)

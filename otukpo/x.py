@@ -1,6 +1,10 @@
 import json
+from datetime import datetime
 fellows = {"F001": "Ada", "F002": "John", "F003": "Grace"}
-borrow_records = []
+# borrow_records = []
+
+with open("borrowed.json", "r") as file:
+    borrowed_data = json.load(file)
 
 with open("resource.json", "r")as file:
     data = json.load(file)
@@ -34,11 +38,9 @@ def resource_invet(id, name, category, available_unit):
 
 
 def borrow(fellow_id, resource_id, quantity):
-    # 1. Load fresh data from the file
-    with open("resource.json", "r") as file:
-        data = json.load(file)
+    
+    time_borrowed = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # 2. Find the resource
     matched = None
     for item in data:
         if item['id'] == resource_id:
@@ -55,8 +57,56 @@ def borrow(fellow_id, resource_id, quantity):
         return "Fellow ID does not exist."
 
     matched['available'] -= quantity
-    
+    matched['total'] -= quantity
+    record = {
+        "fellow_id": fellow_id,
+        "resource_id": resource_id,
+        "quantity": quantity,
+        "time": time_borrowed
+    }
+    borrowed_data.append(record)
+
+    with open("borrowed.json", "w") as file:
+       json.dump(borrowed_data, file, indent=4)
+
     with open("resource.json", "w") as file:
         json.dump(data, file, indent=4)
 
-    return f"User at ID {fellow_id} borrowed {quantity} units of '{matched['name']}"
+    print(f"User at ID {fellow_id} borrowed {quantity} '{matched['name']}'. Available {matched['name']} = {matched['available']}")
+
+
+def Returns(resource_id, fellow_id, quantity):
+
+    match = None
+    for item in borrowed_data:
+        if item['id'] == resource_id:
+            match = item
+            break 
+
+    if not match:
+        return "resource_id does'nt exists"
+    if quantity <= 0 or quantity > borrowed_data['quantity']:
+            return f"the returns is either higher than what you borrowed or negative, you borrowed{borrowed_data['quantity']} and you returning'{quantity}'."
+    
+    if fellow_id not in fellows:
+        return f"id: {fellow_id} doesnt exists"
+    
+
+    match['quantity'] -= quantity
+    matched['available'] += quantity
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    
+
+
